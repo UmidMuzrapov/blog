@@ -1,6 +1,15 @@
-﻿<RadzenMenu>
+﻿@inject HttpClient Http
+
+<RadzenMenu>
     <RadzenMenuItem Text="General" Path=""> </RadzenMenuItem>
-    <RadzenMenuItem Text="Experience" Path="/experience"></RadzenMenuItem>
-    <RadzenMenuItem Text="Projects" Path="/project"></RadzenMenuItem>
+    <RadzenMenuItem Text="Experience" Path=@AddBaseAddress("experience")></RadzenMenuItem>
+    <RadzenMenuItem Text="Projects" Path=@AddBaseAddress("project")></RadzenMenuItem>
     <RadzenMenuItem Text="Studies"></RadzenMenuItem>
 </RadzenMenu>
+
+@code{
+    string AddBaseAddress(string relativeAddress)
+    {
+        return Http.BaseAddress + relativeAddress;
+    }
+}
