@@ -2,31 +2,30 @@
 @inject HttpClient Http
 
 <PageTitle>Home</PageTitle>
-<div class="limit-width">
-    <RadzenRow Gap="5" RowGap="5">
-        <RadzenColumn Size="12">
 
-            <!--Welcome Section-->
-            @*<RadzenText Text="Welcome to My Page" TextStyle="Radzen.Blazor.TextStyle.DisplayH2" TagName="Radzen.Blazor.TagName.Auto"></RadzenText>*@
-            <RadzenCard Style="margin-top: 40px; padding: 20px 40px 40px;">
-                <RadzenRow>
-                    <RadzenColumn Size="12" SizeMD="4">
-                        <RadzenIcon Icon="code" Style="margin-top: 20px; width: 48px; height: 48px; font-size: 48px; color: var(--rz-text-title-color);"></RadzenIcon>
-                        <RadzenText Text="See my repos" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3"></RadzenText>
-                        <RadzenLink Text="GitHub" Path="https://github.com/UmidMuzrapov" Icon="east" Target="_blank" Style="font-size: 18px"></RadzenLink>
-                    </RadzenColumn>
-                    <RadzenColumn Size="12" SizeMD="4">
-                        <RadzenIcon Icon="people_outline" Style="margin-top: 20px; width: 48px; height: 48px; font-size: 48px; color: var(--rz-text-title-color);"></RadzenIcon>
-                        <RadzenText Text="Community" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3"></RadzenText>
-                        <RadzenLink Text="LinkedIn" Path="https://www.linkedin.com/in/umidmuzrapov/" Icon="east" Target="_blank" Style="font-size: 18px"></RadzenLink>
-                    </RadzenColumn>
-                </RadzenRow>
-            </RadzenCard>
+<RadzenRow Gap="5" RowGap="5">
+    <RadzenColumn Size="12">
 
-            <!--Gateways-->
-            <RadzenCard Style="margin-top: 40px; padding: 20px 40px 40px;">
-                <RadzenRow>
+        <!--Welcome Section-->
+        @*<RadzenText Text="Welcome to My Page" TextStyle="Radzen.Blazor.TextStyle.DisplayH2" TagName="Radzen.Blazor.TagName.Auto"></RadzenText>*@
+        <RadzenCard Style="margin-top: 40px; padding: 20px 40px 40px;">
+            <RadzenRow>
+                <RadzenColumn Size="12" SizeMD="4">
+                    <RadzenIcon Icon="code" Style="margin-top: 20px; width: 48px; height: 48px; font-size: 48px; color: var(--rz-text-title-color);"></RadzenIcon>
+                    <RadzenText Text="See my repos" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3"></RadzenText>
+                    <RadzenLink Text="GitHub" Path="https://github.com/UmidMuzrapov" Icon="east" Target="_blank" Style="font-size: 18px"></RadzenLink>
+                </RadzenColumn>
+                <RadzenColumn Size="12" SizeMD="4">
+                    <RadzenIcon Icon="people_outline" Style="margin-top: 20px; width: 48px; height: 48px; font-size: 48px; color: var(--rz-text-title-color);"></RadzenIcon>
+                    <RadzenText Text="Community" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3"></RadzenText>
+                    <RadzenLink Text="LinkedIn" Path="https://www.linkedin.com/in/umidmuzrapov/" Icon="east" Target="_blank" Style="font-size: 18px"></RadzenLink>
+                </RadzenColumn>
+            </RadzenRow>
+        </RadzenCard>
 
+        <RadzenCard Style="margin-top: 40px; padding: 20px 40px 40px;">
+            <RadzenRow>
+                <RadzenColumn Size="12" SizeMD="4">
                     <RadzenText Text="About me" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3" Style="padding-top: 20px"></RadzenText>
                     <p>
                         I am into software development, architecting scalable solutions, and writing concise code. Tough problems motivate me. Through college and work experience, I developed several software systems using diverse technologies like C#, Java, ASP.NET, AWS, LISP, Prolog, Haskell, Docker, GitHub, and relational databases. Some of the fields I have been fortunate to work in include:
@@ -37,34 +36,35 @@
                         Tailored graph algorithms and data dtructures
                         Designing scalable, safe cloud solutions
                     </p>
-                </RadzenRow>
-                <RadzenRow>
+                </RadzenColumn>
+                <RadzenColumn Size="12" SizeMD="4">
                     <RadzenText Text="Projects" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3" Style="padding-top: 20px"></RadzenText>
                     <p>
                         The primary purpose of this site is to showase my projects and give some infromation about me. The projects are done independently, as a part of schoolwork or an online course. If you have any question regarding my projects, feel free to email me.
 
                         As I will be working on more projects, the site will grow. Later, I might adopt some of projects for the web, so the users can test them on the web. This should free them from the pain of installing the software from GitHub and configuring it.
                     </p>
-                </RadzenRow>
-            </RadzenCard>
-
-            @*
-            <RadzenCard Style="margin-top: 40px; padding: 20px 40px 40px;">
-            <RadzenRow>
-            <RadzenColumn Size="12" SizeMD="4">
-            <RadzenImage Path="images/device.svg" Style="width: 15rem;" />
-            </RadzenColumn>
-            <RadzenColumn Size="12" SizeMD="4">
-            <RadzenIcon Icon="people_outline" Style="margin-top: 20px; width: 48px; height: 48px; font-size: 48px; color: var(--rz-text-title-color);"></RadzenIcon>
-            <RadzenText Text="Community" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3"></RadzenText>
-            <RadzenLink Text="IoT Wireless" Path="https://repost.aws/community/TAEQXJMLWWTp2elx_Bkb1Kvw/internet-of-things-iot" Icon="east" Target="_blank" Style="font-size: 18px"></RadzenLink>
-            </RadzenColumn>
+                </RadzenColumn>
             </RadzenRow>
-            </RadzenCard>*@
+        </RadzenCard>
 
+        @*
+        <RadzenCard Style="margin-top: 40px; padding: 20px 40px 40px;">
+        <RadzenRow>
+        <RadzenColumn Size="12" SizeMD="4">
+        <RadzenImage Path="images/device.svg" Style="width: 15rem;" />
         </RadzenColumn>
-    </RadzenRow>
-</div>
+        <RadzenColumn Size="12" SizeMD="4">
+        <RadzenIcon Icon="people_outline" Style="margin-top: 20px; width: 48px; height: 48px; font-size: 48px; color: var(--rz-text-title-color);"></RadzenIcon>
+        <RadzenText Text="Community" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3"></RadzenText>
+        <RadzenLink Text="IoT Wireless" Path="https://repost.aws/community/TAEQXJMLWWTp2elx_Bkb1Kvw/internet-of-things-iot" Icon="east" Target="_blank" Style="font-size: 18px"></RadzenLink>
+        </RadzenColumn>
+        </RadzenRow>
+        </RadzenCard>*@
+
+    </RadzenColumn>
+</RadzenRow>
+
 
 @code {
 
