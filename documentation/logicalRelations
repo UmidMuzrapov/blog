@@ -1,0 +1,8 @@
+Project (pname, startDate, endDate, overview, gitHubLink, photoLink)
+Primary Key: pname
+
+Tag (tname, descriptionLink)
+Primary Key: tname
+
+ProjectTag (pname, tname)
+Primary Key: pname, tname
