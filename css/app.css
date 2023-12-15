@@ -162,3 +162,8 @@ a, .btn-link {
     --rz-series-24: #b83d5e;
     --rz-card-background-color: #f2e9e3;
 }
+
+.limit-width{
+    max-width: 1000px;
+    margin: auto;
+}
