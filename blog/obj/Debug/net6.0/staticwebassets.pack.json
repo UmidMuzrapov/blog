@@ -25,18 +25,6 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\css\\material-dark-base.css",
-      "PackagePath": "staticwebassets\\css\\material-dark-base.css"
-    },
-    {
-      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\css\\material3-base.css",
-      "PackagePath": "staticwebassets\\css\\material3-base.css"
-    },
-    {
-      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\css\\material3-dark-base.css",
-      "PackagePath": "staticwebassets\\css\\material3-dark-base.css"
-    },
-    {
       "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
