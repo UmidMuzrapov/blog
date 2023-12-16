@@ -1,0 +1,76 @@
+[
+  {
+    "pname": "Multi-Tenancy for IoT Core Wireless",
+    "overview": "Multi-Tenancy for AWS IoT Wireless is a distributed, multi-tenant software that demonstrates to AWS IoT Wireless customers how to logically isolate data plane and LoRaWAN resources. The system consists of the client app, microservices, Amazon Cognito, and IoT Core Wireless, showing how to achieve multi-tenancy for wireless devices, gateways, and destinations under a single AWS account.",
+    "gitHubLink": "https://github.com/UmidMuzrapov/chatApp",
+    "startDate": "2023-05-2023",
+    "endDate": "2023-08-2023"
+  },
+
+  {
+    "pname": "Chat App",
+    "overview": "Chat App allows the users to chat after a successful log-in. Images are resized and stored in AWS S3. The service also uses cashing and cookies.",
+    "gitHubLink": "https://github.com/UmidMuzrapov/chatApp",
+    "startDate": "2022-11-10",
+    "endDate": "2022-12-00"
+
+  },
+
+  {
+    "pname": "Global Weather",
+    "description": "Gloabal Weather allows users to get weather conditions and analysis at any place on Earth. The app supports getting user's current location and maps.",
+    "gitHubLink": "https://github.com/UmidMuzrapov/weather2",
+    "startDate": "2023-03-2023",
+    "endDate": "2023-04-2023"
+  },
+
+  {
+    "pname": "Wordle",
+    "overview": "The is Worlde, an interactive game with beautiful UI. The game keeps track of each user, maintains the user's state, and shows game statistics.",
+    "gitHubLink": "https://github.com/UmidMuzrapov/java/tree/main/wordle"
+  },
+
+  {
+
+    "pname": "Music Player",
+    "overview": "A simple, light music player. The program allows users to add songs to the playlist locally and enjoy their music. The program keeps the data store of users and the state of the playlist to give a premium experience.",
+    "gitHubLink": "https://github.com/UmidMuzrapov/java/tree/main/musicPlayer/jukebox-umid-bernardo"
+  },
+
+  {
+    "pname": "Garden",
+    "overview": "The program simulates a garden where the user can grow a garden.",
+    "gitHubLink": "https://github.com/UmidMuzrapov/java/tree/main/garden"
+  },
+
+  {
+    "pname": "Cheap Houses",
+    "overview": "The program reads data from a CSV file, and plots the the houses.",
+    "gitHubLink": "https://github.com/UmidMuzrapov/java/tree/main/cheapHouses/src"
+  },
+
+  {
+    "pname": "TSP",
+    "overview": "The program solves the TSP using one of the four algorithms.",
+    "gitHubLink": "https://github.com/UmidMuzrapov/python/tree/main/connectN"
+  },
+
+
+  {
+    "pname": "Rhymes",
+    "overview": "The program reads words from the user, one word per line. Then, it returns all the words that perfectly rhyme with the given word. If no rhyme is found, or word is not in dictionary, program says there is no word found.",
+    "gitHubLink": "https://github.com/UmidMuzrapov/python/tree/main/rhymes/src"
+  },
+
+  {
+    "pname": "Maze Solver",
+    "overview": "It reads the map up from a file, builds a tree to represent the maze, and then searches through the tree to find a path from the start to the end.",
+    "gitHubLink": "https://github.com/UmidMuzrapov/python/tree/main/mazeSolver"
+  },
+
+  {
+    "pname": "Word Search",
+    "overview": " The program finds the words in crossword and prints out each words in separate grid, where everything except the word is replaced with '.'.",
+    "gitHubLink": "https://github.com/UmidMuzrapov/python/tree/main/wordSearch/src"
+  }
+]
