@@ -2,7 +2,7 @@
 {
     public class ProjectTag
     {
-        public string Pname { get; set; }
-        public string Tname { get; set; }
+        public string? Pname { get; set; }
+        public string? Tname { get; set; }
     }
 }

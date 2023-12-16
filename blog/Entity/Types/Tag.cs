@@ -2,7 +2,7 @@
 { 
     public class Tag
     {
-        public string Tname { get; set; }
-        public string DescriptionLink { get; set; }
+        public string? Tname { get; set; }
+        public string? DescriptionLink { get; set; }
     }
 }
