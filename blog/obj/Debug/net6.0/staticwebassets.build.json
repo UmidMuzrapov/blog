@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MvcB7MiYxoiTJ4WuKpnOVUZ4GpMV120XB6rdxl9BEyg=",
+  "Hash": "MuETC9ZSg3ECuAG5B9HwC0AKbp/0LMyuLwQnTC8A+7M=",
   "Source": "blog",
   "BasePath": "/",
   "Mode": "Root",
@@ -7835,6 +7835,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
+    },
+    {
+      "Identity": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\project.json",
+      "SourceId": "blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "data/json/project.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\json\\project.json"
     },
     {
       "Identity": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\favicon.ico",

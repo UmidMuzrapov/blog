@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\project.json",
+      "PackagePath": "staticwebassets\\data\\json\\project.json"
+    },
+    {
       "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

@@ -1,0 +1,19 @@
+---
+title: Blog
+---
+erDiagram
+PROJECT {
+    string name PK
+    date startDate
+    date endDate
+    string overview
+    string gitHubLink
+    string photoLink
+}
+
+TAG{
+    string name PK
+    string descriptionLink 
+}
+
+PROJECT }o--o{ TAG: has
