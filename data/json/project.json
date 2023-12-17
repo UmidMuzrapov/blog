@@ -1,10 +1,10 @@
 [
   {
-    "pname": "Multi-Tenancy for IoT Core Wireless",
-    "overview": "Multi-Tenancy for AWS IoT Wireless is a distributed, multi-tenant software that demonstrates to AWS IoT Wireless customers how to logically isolate data plane and LoRaWAN resources. The system consists of the client app, microservices, Amazon Cognito, and IoT Core Wireless, showing how to achieve multi-tenancy for wireless devices, gateways, and destinations under a single AWS account.",
+    "endDate": "2023-08-2023",
     "gitHubLink": "https://github.com/UmidMuzrapov/chatApp",
-    "startDate": "2023-05-2023",
-    "endDate": "2023-08-2023"
+    "overview": "Multi-Tenancy for AWS IoT Wireless is a distributed, multi-tenant software that demonstrates to AWS IoT Wireless customers how to logically isolate data plane and LoRaWAN resources. The system consists of the client app, microservices, Amazon Cognito, and IoT Core Wireless, showing how to achieve multi-tenancy for wireless devices, gateways, and destinations under a single AWS account.",
+    "pname": "Multi-Tenancy for IoT Core Wireless",
+    "startDate": "2023-05-2023"
   },
 
   {
