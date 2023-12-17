@@ -1,75 +1,61 @@
 ﻿@page "/project"
 @using blog.Entity
+@using blog.Class
 
-<RadzenTextBox @bind-Value=@search TValue="string"/>
+<RadzenTextBox @bind-Value=@search TValue="string" />
 
+<div class="flex-container">
 
-<RadzenCard Class="rz-my-12 rz-mx-auto" Style="max-width: 420px">
-    <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.Start" Gap="1rem" Class="rz-p-4">
-        <RadzenStack Gap="0">
-            <RadzenText TextStyle="TextStyle.Overline" class="rz-display-flex rz-mt-2 rz-my-0">Name</RadzenText>
-            <RadzenText TextStyle="TextStyle.Body1"><b>Pika pika</b></RadzenText>
-            <RadzenText TextStyle="TextStyle.Overline" class="rz-display-flex rz-mt-4 rz-mb-0">Tags</RadzenText>
-            <RadzenText TextStyle="TextStyle.Body1">Java</RadzenText>
-        </RadzenStack>
-    </RadzenStack>
-    <RadzenCard class="rz-background-color-primary-light rz-shadow-0 rz-border-radius-0 rz-p-8" style="margin: 1rem calc(-1 * var(--rz-card-padding));">
-        <RadzenText TextStyle="TextStyle.Overline" class="rz-color-on-primary-light rz-display-flex rz-mt-4 rz-mb-0"><b>Overview</b></RadzenText>
-        <RadzenText TextStyle="TextStyle.Body1" class="rz-color-on-primary-light">@(project?.Overview)</RadzenText>
+    @foreach (Class.ProjectTag project in projects)
+    {
+        <div class="flex-item">
+            <RadzenCard Class="rz-my-12 rz-mx-auto" Style="max-width: 420px">
+                <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.Start" Gap="1rem" Class="rz-p-4">
+                    <RadzenStack Gap="0">
+                        <RadzenText TextStyle="TextStyle.Overline" class="rz-display-flex rz-mt-2 rz-my-0">Name</RadzenText>
+                        <RadzenText TextStyle="TextStyle.Body1"><b>Pika pika</b></RadzenText>
+                        <RadzenText TextStyle="TextStyle.Overline" class="rz-display-flex rz-mt-4 rz-mb-0">Tags</RadzenText>
+                        <RadzenText TextStyle="TextStyle.Body1">Java</RadzenText>
+                    </RadzenStack>
+                </RadzenStack>
+                <RadzenCard class="rz-background-color-primary-light rz-shadow-0 rz-border-radius-0 rz-p-8" style="margin: 1rem calc(-1 * var(--rz-card-padding));">
+                    <RadzenText TextStyle="TextStyle.Overline" class="rz-color-on-primary-light rz-display-flex rz-mt-4 rz-mb-0"><b>Overview</b></RadzenText>
+                    <RadzenText TextStyle="TextStyle.Body1" class="rz-color-on-primary-light">@(project?.Overview)</RadzenText>
 
-        <RadzenRow RowGap="0" >
-            <RadzenColumn SizeSM="4">
-                
-                    <RadzenText TextStyle="TextStyle.Overline" class="rz-color-on-primary-light rz-display-flex rz-mt-4 rz-mb-0"><b>Start Date</b></RadzenText>
-                <RadzenText TextStyle="TextStyle.Body1" class="rz-color-on-primary-light">@project?.StartDate.ToShortDateString()</RadzenText>
-                    <RadzenText TextStyle="TextStyle.Overline" class="rz-color-on-primary-light rz-display-flex rz-mt-4 rz-mb-0"><b>GitHubLink</b></RadzenText>
-                <RadzenText TextStyle="TextStyle.Body1" class="rz-color-on-primary-light">@(project?.GitHubLink)</RadzenText>
-            </RadzenColumn>
+                        <RadzenRow RowGap="0">
+                            <RadzenColumn SizeSM="4">
 
-            <RadzenColumn SizeSM="4">
-                    <RadzenText TextStyle="TextStyle.Overline" class="rz-color-on-primary-light rz-display-flex rz-mt-4 rz-mb-0"><b>End Date</b></RadzenText>
-                <RadzenText TextStyle="TextStyle.Body1" class="rz-color-on-primary-light">@project?.EndDate.ToShortDateString()</RadzenText>
-            </RadzenColumn>
-            
-        </RadzenRow>
-    </RadzenCard>
-</RadzenCard>
+                                <RadzenText TextStyle="TextStyle.Overline" class="rz-color-on-primary-light rz-display-flex rz-mt-4 rz-mb-0"><b>Start Date</b></RadzenText>
+                                <RadzenText TextStyle="TextStyle.Body1" class="rz-color-on-primary-light">@project?.StartDate.ToShortDateString()</RadzenText>
+                                <RadzenText TextStyle="TextStyle.Overline" class="rz-color-on-primary-light rz-display-flex rz-mt-4 rz-mb-0"><b>GitHubLink</b></RadzenText>
+                                <RadzenText TextStyle="TextStyle.Body1" class="rz-color-on-primary-light">@(project?.GitHubLink)</RadzenText>
+                            </RadzenColumn>
 
+                            <RadzenColumn SizeSM="4">
+                                <RadzenText TextStyle="TextStyle.Overline" class="rz-color-on-primary-light rz-display-flex rz-mt-4 rz-mb-0"><b>End Date</b></RadzenText>
+                                <RadzenText TextStyle="TextStyle.Body1" class="rz-color-on-primary-light">@project?.EndDate.ToShortDateString()</RadzenText>
+                            </RadzenColumn>
+
+                        </RadzenRow>
+                    </RadzenCard>
+                </RadzenCard>
+            </div>
+    }
+</div>
 
 @code {
-    Entity.Project? project = null;
     string search = "Java";
+    List<Class.ProjectTag>? projects;
 
     protected override void OnInitialized()
     {
-        project = new Entity.Project
-            {
-                Pname = "Name",
-                StartDate = new DateTime(2023, 09, 23),
-                EndDate =  new DateTime(2023, 10, 23),
-                Overview = "This is a test",
-                GitHubLink = "testlink"
-            };
-
-        Entity.Tag tag = new Tag
-            {
-                Tname = "Java",
-                DescriptionLink = "wiki link"
-            };
-
-        Entity.ProjectTag tagProject = new Entity.ProjectTag
-            {
-                Pname = "Name",
-                Tname = "Java"
-            };
-
-
-        var result = from p in new List<Entity.Project> { project }
-                     join pt in new List<Entity.ProjectTag> {tagProject } on p.Pname equals pt.Pname
-                     join t in new List<Entity.Tag> { tag } on pt.Tname equals t.Tname
-                     select new { Project = p, Tag = t };
-        
-
+        projects = new List<Class.ProjectTag>
+        {
+            new Class.ProjectTag(),
+            new Class.ProjectTag(),
+            new Class.ProjectTag(),
+            new Class.ProjectTag(),
+            new Class.ProjectTag()
+        };
     }
-
 }
