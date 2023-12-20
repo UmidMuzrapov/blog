@@ -1,6 +1,43 @@
 [
   {
+    "tname": "AWS"
+  },
+  {
+    "tname": "Cognito"
+  },
+  {
+    "tname": "ASP.NET"
+  },
+  {
+    "tname": "React"
+  },
+  {
+    "tname": "Distributed"
+  },
+
+  {
     "tname": "Java",
-    "descriptionLink":  "testLink"
+    "descriptionLink": "testLink"
+  },
+  {
+    "tname": "JavaScript"
+  },
+  {
+    "tname": "Cashing"
+  },
+  {
+    "tname": "SSO"
+  },
+  {
+    "tname": "REST"
+  },
+  {
+    "tname": "JavaFX"
+  },
+  {
+    "tname": "Algorithms"
+  },
+  {
+    "tname": "Python"
   }
 ]
