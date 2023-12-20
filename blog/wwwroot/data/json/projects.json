@@ -2,11 +2,14 @@
   {
     "pname" :  "Multi-Tenancy for AWS IoT Wireless",
     "endDate": "2023-08-20",
+    "startDate": "2023-05-13",
     "gitHubLink": "https://github.com/UmidMuzrapov/chatApp",
     "overview": "Multi-Tenancy for AWS IoT Wireless is a distributed, multi-tenant software that demonstrates to AWS IoT Wireless customers how to logically isolate data plane and LoRaWAN resources."
   },
 
   {
+    "startDate": "2022-10-10",
+    "endDate":  "2022-12-10",
     "pname": "Chat App",
     "overview": "Chat App allows the users to chat after a successful log-in. Images are resized and stored in AWS S3. The service also uses cashing and cookies.",
     "gitHubLink": "https://github.com/UmidMuzrapov/chatApp"
@@ -14,56 +17,72 @@
   },
 
   {
+    "startDate": "2023-03-01",
+    "endDate": "2023-05-01",
     "pname": "Global Weather",
     "overview": "Gloabal Weather allows users to get weather conditions and analysis at any place on Earth. The app supports getting user's current location and maps.",
     "gitHubLink": "https://github.com/UmidMuzrapov/weather2"
   },
 
   {
+    "startDate": "2023-04-01",
+    "endDate":  "2023-04-21",
     "pname": "Wordle",
     "overview": "The is Worlde, an interactive game with beautiful UI. The game keeps track of each user, maintains the user's state, and shows game statistics.",
     "gitHubLink": "https://github.com/UmidMuzrapov/java/tree/main/wordle"
   },
 
   {
-
+    "startDate": "2023-03-01",
+    "endDate": "2023-03-21",
     "pname": "Music Player",
     "overview": "A simple, light music player. The program allows users to add songs to the playlist locally and enjoy their music.",
     "gitHubLink": "https://github.com/UmidMuzrapov/java/tree/main/musicPlayer/jukebox-umid-bernardo"
   },
 
   {
+    "startDate": "2022-10-01",
+    "endDate": "2022-10-15",
     "pname": "Garden",
     "overview": "The program simulates a garden where the user can grow a garden.",
     "gitHubLink": "https://github.com/UmidMuzrapov/java/tree/main/garden"
   },
 
   {
+    "startDate": "2022-09-05",
+    "endDate" :"2022-09-15",
     "pname": "Cheap Houses",
     "overview": "The program reads data from a CSV file, and plots the the houses.",
     "gitHubLink": "https://github.com/UmidMuzrapov/java/tree/main/cheapHouses/src"
   },
 
   {
+    "startDate": "2022-10-15",
+    "endDate": "2022-10-25",
     "pname": "TSP",
     "overview": "The program solves the TSP using one of the four algorithms.",
     "gitHubLink": "https://github.com/UmidMuzrapov/python/tree/main/connectN"
   },
 
-
   {
+    "startDate": "2022-03-10",
+    "endDate": "2022-03-25",
     "pname": "Rhymes",
     "overview": "The program reads words from the user, one word per line. Then, it returns all the words that perfectly rhyme with the given word.",
     "gitHubLink": "https://github.com/UmidMuzrapov/python/tree/main/rhymes/src"
   },
 
   {
+    "startDate": "2022-04-10",
+    "endDate": "2022-04-25",
     "pname": "Maze Solver",
     "overview": "It reads the map up from a file, builds a tree to represent the maze, and then searches through the tree to find a path from the start to the end.",
     "gitHubLink": "https://github.com/UmidMuzrapov/python/tree/main/mazeSolver"
   },
 
   {
+    "startDate": "2022-02-01",
+    "endDate": "2022-02-10",
     "pname": "Word Search",
     "overview": " The program finds the words in crossword and prints out each words in separate grid, where everything except the word is replaced with '.'.",
     "gitHubLink": "https://github.com/UmidMuzrapov/python/tree/main/wordSearch/src"
