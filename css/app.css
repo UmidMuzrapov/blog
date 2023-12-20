@@ -168,13 +168,14 @@ a, .btn-link {
     margin: auto;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: stretch;
 }
 
 .flex-item {
     flex: 1 0 300px; /* explanation below */
     margin: 5px;
+    box-sizing: border-box;
 }

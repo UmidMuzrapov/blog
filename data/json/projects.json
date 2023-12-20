@@ -1,27 +1,22 @@
 [
   {
-    "endDate": "2023-08-2023",
+    "pname" :  "Multi-Tenancy for AWS IoT Wireless",
+    "endDate": "2023-08-20",
     "gitHubLink": "https://github.com/UmidMuzrapov/chatApp",
-    "overview": "Multi-Tenancy for AWS IoT Wireless is a distributed, multi-tenant software that demonstrates to AWS IoT Wireless customers how to logically isolate data plane and LoRaWAN resources. The system consists of the client app, microservices, Amazon Cognito, and IoT Core Wireless, showing how to achieve multi-tenancy for wireless devices, gateways, and destinations under a single AWS account.",
-    "pname": "Multi-Tenancy for IoT Core Wireless",
-    "startDate": "2023-05-2023"
+    "overview": "Multi-Tenancy for AWS IoT Wireless is a distributed, multi-tenant software that demonstrates to AWS IoT Wireless customers how to logically isolate data plane and LoRaWAN resources."
   },
 
   {
     "pname": "Chat App",
     "overview": "Chat App allows the users to chat after a successful log-in. Images are resized and stored in AWS S3. The service also uses cashing and cookies.",
-    "gitHubLink": "https://github.com/UmidMuzrapov/chatApp",
-    "startDate": "2022-11-10",
-    "endDate": "2022-12-00"
+    "gitHubLink": "https://github.com/UmidMuzrapov/chatApp"
 
   },
 
   {
     "pname": "Global Weather",
-    "description": "Gloabal Weather allows users to get weather conditions and analysis at any place on Earth. The app supports getting user's current location and maps.",
-    "gitHubLink": "https://github.com/UmidMuzrapov/weather2",
-    "startDate": "2023-03-2023",
-    "endDate": "2023-04-2023"
+    "overview": "Gloabal Weather allows users to get weather conditions and analysis at any place on Earth. The app supports getting user's current location and maps.",
+    "gitHubLink": "https://github.com/UmidMuzrapov/weather2"
   },
 
   {
@@ -33,7 +28,7 @@
   {
 
     "pname": "Music Player",
-    "overview": "A simple, light music player. The program allows users to add songs to the playlist locally and enjoy their music. The program keeps the data store of users and the state of the playlist to give a premium experience.",
+    "overview": "A simple, light music player. The program allows users to add songs to the playlist locally and enjoy their music.",
     "gitHubLink": "https://github.com/UmidMuzrapov/java/tree/main/musicPlayer/jukebox-umid-bernardo"
   },
 
@@ -58,7 +53,7 @@
 
   {
     "pname": "Rhymes",
-    "overview": "The program reads words from the user, one word per line. Then, it returns all the words that perfectly rhyme with the given word. If no rhyme is found, or word is not in dictionary, program says there is no word found.",
+    "overview": "The program reads words from the user, one word per line. Then, it returns all the words that perfectly rhyme with the given word.",
     "gitHubLink": "https://github.com/UmidMuzrapov/python/tree/main/rhymes/src"
   },
 
