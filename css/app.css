@@ -179,3 +179,16 @@ a, .btn-link {
     margin: 5px;
     box-sizing: border-box;
 }
+
+.inner-card {
+    max-height: 250px;
+    min-height: 250px;
+    overflow: auto;
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+    /*box-shadow: var(--rz-shadow-1);*/
+}
+
+    .inner-card::-webkit-scrollbar {
+        display: none;
+    }
