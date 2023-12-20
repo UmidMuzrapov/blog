@@ -2,5 +2,87 @@
   {
     "pname": "Wordle",
     "tname": "Java"
+  },
+  {
+    "pname": "Wordle",
+    "tname" : "JavaFX"
+  },
+  {
+    "pname": "Multi-Tenancy for AWS IoT Wireless",
+    "tname": "AWS"
+  },
+  {
+    "pname": "Multi-Tenancy for AWS IoT Wireless",
+    "tname": "Cognito"
+  },
+  {
+    "pname": "Multi-Tenancy for AWS IoT Wireless",
+    "tname": "ASP.NET"
+  },
+  {
+    "pname": "Multi-Tenancy for AWS IoT Wireless",
+    "tname": "React"
+  },
+  {
+    "pname": "Multi-Tenancy for AWS IoT Wireless",
+    "tname": "Distributed"
+  },
+  {
+    "pname": "Chat App",
+    "tname": "JavaScript"
+  },
+  {
+    "pname": "Chat App",
+    "tname": "Cashing"
+  },
+  {
+    "pname": "Chat App",
+    "tname": "REST"
+  },
+  {
+    "pname": "Chat App",
+    "tname": "AWS"
+  },
+  {
+    "pname": "Global Weather",
+    "tname": "REST"
+  },
+  {
+    "pname": "Global Weather",
+    "tname": "ASP.NET"
+  },
+  {
+    "pname": "Music Player",
+    "tname": "Java"
+  },
+  {
+    "pname": "Music Player",
+    "tname": "JavaFX"
+  },
+  {
+    "pname": "Garden",
+    "tname": "Java"
+  },
+  {
+    "pname": "Cheap Houses",
+    "tname": "Java"
+  },
+  {
+    "pname": "TSP",
+    "tname": "Java"
+  },
+  {
+    "pname": "Rhymes",
+    "tname": "Python"
+  },
+  {
+    "pname": "Maze Solver",
+    "tname": "Python"
+  },
+  {
+    "pname": "Word Search",
+    "tname": "Python"
   }
+
+
 ]
