@@ -5,7 +5,9 @@
 @using System.Text.Json;
 @inject HttpClient http
 
-<RadzenTextBox @bind-Value=@search TValue="string" onkeypress="@FilterProjects"/>
+<div class="limit-width">
+<RadzenTextBox @bind-Value=@search TValue="string" Placeholder="Search by tag"/>
+<RadzenButton Click=@FilterProjects ButtonStyle="ButtonStyle.Secondary">Search</RadzenButton>
 
 <div class="flex-container">
 
@@ -45,9 +47,9 @@
             </div>
     }
 </div>
-
+</div>
 @code {
-    string search = "Java";
+    string search;
     private List<Entity.Project> projects = new List<Entity.Project>();
     private List<Entity.Tag> tags;
     private List<Entity.ProjectTag> projectTags;
@@ -96,6 +98,11 @@
 
     private void FilterProjects()
     {
+        if (search is null)
+        {
+            return;
+        }
+
         if (search.Length < 3)
         {
             selectedProjects = joinResult;
