@@ -1,4 +1,6 @@
-﻿namespace blog.Class
+﻿using blog.Entity;
+
+namespace blog.Class
 {
     public class ProjectTag
     {
@@ -7,7 +9,7 @@
         public DateTime EndDate { get; set; }
         public string? Overview { get; set; }
         public string? GitHubLink { get; set; }
-        public string? photoLink { get; set; }
-        public Dictionary<string, string>? TagLink { get; set; }
+        public string? PhotoLink { get; set; }
+        public List<Tag> Tags{ get; set; }
     }
 }

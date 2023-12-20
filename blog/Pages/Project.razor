@@ -1,43 +1,46 @@
 ﻿@page "/project"
+@using System.Text;
 @using blog.Entity
 @using blog.Class
+@using System.Text.Json;
+@inject HttpClient http
 
-<RadzenTextBox @bind-Value=@search TValue="string" />
+<RadzenTextBox @bind-Value=@search TValue="string" onkeypress="@FilterProjects"/>
 
 <div class="flex-container">
 
-    @foreach (Class.ProjectTag project in projects)
+    @foreach (var project in selectedProjects)
     {
         <div class="flex-item">
             <RadzenCard Class="rz-my-12 rz-mx-auto" Style="max-width: 420px">
                 <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.Start" Gap="1rem" Class="rz-p-4">
                     <RadzenStack Gap="0">
                         <RadzenText TextStyle="TextStyle.Overline" class="rz-display-flex rz-mt-2 rz-my-0">Name</RadzenText>
-                        <RadzenText TextStyle="TextStyle.Body1"><b>Pika pika</b></RadzenText>
+                        <RadzenText TextStyle="TextStyle.Body1"><b>@project.Project.Pname</b></RadzenText>
                         <RadzenText TextStyle="TextStyle.Overline" class="rz-display-flex rz-mt-4 rz-mb-0">Tags</RadzenText>
-                        <RadzenText TextStyle="TextStyle.Body1">Java</RadzenText>
+                        <RadzenText TextStyle="TextStyle.Body1">@GetTags(project)</RadzenText>
                     </RadzenStack>
                 </RadzenStack>
                 <RadzenCard class="rz-background-color-primary-light rz-shadow-0 rz-border-radius-0 rz-p-8" style="margin: 1rem calc(-1 * var(--rz-card-padding));">
                     <RadzenText TextStyle="TextStyle.Overline" class="rz-color-on-primary-light rz-display-flex rz-mt-4 rz-mb-0"><b>Overview</b></RadzenText>
-                    <RadzenText TextStyle="TextStyle.Body1" class="rz-color-on-primary-light">@(project?.Overview)</RadzenText>
+                    <RadzenText TextStyle="TextStyle.Body1" class="rz-color-on-primary-light">@(project?.Project.Overview)</RadzenText>
 
                         <RadzenRow RowGap="0">
                             <RadzenColumn SizeSM="4">
 
                                 <RadzenText TextStyle="TextStyle.Overline" class="rz-color-on-primary-light rz-display-flex rz-mt-4 rz-mb-0"><b>Start Date</b></RadzenText>
-                                <RadzenText TextStyle="TextStyle.Body1" class="rz-color-on-primary-light">@project?.StartDate.ToShortDateString()</RadzenText>
-                                <RadzenText TextStyle="TextStyle.Overline" class="rz-color-on-primary-light rz-display-flex rz-mt-4 rz-mb-0"><b>GitHubLink</b></RadzenText>
-                                <RadzenText TextStyle="TextStyle.Body1" class="rz-color-on-primary-light">@(project?.GitHubLink)</RadzenText>
+                                <RadzenText TextStyle="TextStyle.Body1" class="rz-color-on-primary-light">@project?.Project.StartDate.ToShortDateString()</RadzenText>
                             </RadzenColumn>
 
                             <RadzenColumn SizeSM="4">
                                 <RadzenText TextStyle="TextStyle.Overline" class="rz-color-on-primary-light rz-display-flex rz-mt-4 rz-mb-0"><b>End Date</b></RadzenText>
-                                <RadzenText TextStyle="TextStyle.Body1" class="rz-color-on-primary-light">@project?.EndDate.ToShortDateString()</RadzenText>
+                                <RadzenText TextStyle="TextStyle.Body1" class="rz-color-on-primary-light">@project?.Project.EndDate.ToShortDateString()</RadzenText>
                             </RadzenColumn>
 
                         </RadzenRow>
                     </RadzenCard>
+
+                    <RadzenButton ButtonStyle="ButtonStyle.Light"> <RadzenLink Path=@project.Project.GitHubLink> </RadzenLink> GitHub </RadzenButton>
                 </RadzenCard>
             </div>
     }
@@ -45,17 +48,62 @@
 
 @code {
     string search = "Java";
-    List<Class.ProjectTag>? projects;
+    private List<Entity.Project> projects = new List<Entity.Project>();
+    private List<Entity.Tag> tags;
+    private List<Entity.ProjectTag> projectTags;
+    private List<ProjectWithTags> joinResult = new List<ProjectWithTags>();
+    private List<ProjectWithTags> selectedProjects = new List<ProjectWithTags>();
 
-    protected override void OnInitialized()
+    protected async override void OnInitialized()
     {
-        projects = new List<Class.ProjectTag>
+        string endPoint = http.BaseAddress + "data/json/"; 
+        projects = await http.GetFromJsonAsync<List<Entity.Project>>(endPoint + "projects.json");
+        tags = await http.GetFromJsonAsync<List<Entity.Tag>>(endPoint + "tags.json");
+        projectTags =  await http.GetFromJsonAsync<List<Entity.ProjectTag>>(endPoint + "projectTags.json");
+        joinResult = GetProjectsAndTags();
+        selectedProjects = joinResult;
+        StateHasChanged();
+    }
+
+    public List<ProjectWithTags> GetProjectsAndTags()
+    {
+        // Perform in-memory join to get projects with associated tags
+        var result = projects.Select(p => new ProjectWithTags
+            {
+                Project = p,
+                Tags = projectTags
+                    .Where(pt => pt.Pname == p.Pname)
+                    .Select(pt => tags.FirstOrDefault(t => t.Tname == pt.Tname))
+                    .ToHashSet()
+            }).ToList();
+
+        return result;
+    }
+
+    public class ProjectWithTags
+    {
+        public Entity.Project Project { get; set; }
+        public HashSet<Entity.Tag> Tags { get; set; }
+    }
+
+    private string GetTags(ProjectWithTags project)
+    {
+        StringBuilder stringBuilder = new StringBuilder();
+        project.Tags.ToList().ForEach(str => stringBuilder.Append(str.Tname+" "));
+
+        return stringBuilder.ToString();
+    }
+
+    private void FilterProjects()
+    {
+        if (search.Length < 3)
         {
-            new Class.ProjectTag(),
-            new Class.ProjectTag(),
-            new Class.ProjectTag(),
-            new Class.ProjectTag(),
-            new Class.ProjectTag()
-        };
+            selectedProjects = joinResult;
+            StateHasChanged();
+            return;
+        }
+
+        selectedProjects = joinResult.Where(project => project.Tags.Contains(new Tag { Tname = search})).ToList();
+        StateHasChanged();
     }
 }

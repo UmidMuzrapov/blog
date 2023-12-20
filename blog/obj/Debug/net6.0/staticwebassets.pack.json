@@ -61,8 +61,16 @@
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\project.json",
-      "PackagePath": "staticwebassets\\data\\json\\project.json"
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\projectTags.json",
+      "PackagePath": "staticwebassets\\data\\json\\projectTags.json"
+    },
+    {
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\projects.json",
+      "PackagePath": "staticwebassets\\data\\json\\projects.json"
+    },
+    {
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\tags.json",
+      "PackagePath": "staticwebassets\\data\\json\\tags.json"
     },
     {
       "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\favicon.ico",
