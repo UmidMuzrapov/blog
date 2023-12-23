@@ -42,7 +42,10 @@
                         </RadzenRow>
                     </RadzenCard>
 
+                    @if (project.Project.GitHubLink is not null)
+                    {
                         <RadzenButton ButtonStyle="ButtonStyle.Light"> <RadzenLink Path=@project.Project.GitHubLink> GitHub</RadzenLink>  </RadzenButton>
+                    }
                 </RadzenCard>
             </div>
     }
