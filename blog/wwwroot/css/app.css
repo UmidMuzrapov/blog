@@ -166,6 +166,7 @@ a, .btn-link {
 .limit-width{
     max-width: 1000px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .flex-container {
