@@ -1,175 +1,175 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\obj\\Debug\\net6.0\\build-gz\\WuFnICVn.gz",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\obj\\Debug\\net6.0\\build-gz\\PsMJgLK7.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\obj\\Debug\\net6.0\\scopedcss\\bundle\\blog.styles.css",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\obj\\Debug\\net6.0\\scopedcss\\bundle\\blog.styles.css",
       "PackagePath": "staticwebassets\\blog.styles.css"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\projectTags.json",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\projectTags.json",
       "PackagePath": "staticwebassets\\data\\json\\projectTags.json"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\projects.json",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\projects.json",
       "PackagePath": "staticwebassets\\data\\json\\projects.json"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\tags.json",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\tags.json",
       "PackagePath": "staticwebassets\\data\\json\\tags.json"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\MaterialIcons-Regular.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\MaterialIcons-Regular.woff",
       "PackagePath": "staticwebassets\\fonts\\MaterialIcons-Regular.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-Black.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-Black.woff",
       "PackagePath": "staticwebassets\\fonts\\SourceSansPro-Black.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-BlackIt.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-BlackIt.woff",
       "PackagePath": "staticwebassets\\fonts\\SourceSansPro-BlackIt.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-Bold.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-Bold.woff",
       "PackagePath": "staticwebassets\\fonts\\SourceSansPro-Bold.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-BoldIt.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-BoldIt.woff",
       "PackagePath": "staticwebassets\\fonts\\SourceSansPro-BoldIt.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-ExtraLight.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-ExtraLight.woff",
       "PackagePath": "staticwebassets\\fonts\\SourceSansPro-ExtraLight.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-ExtraLightIt.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-ExtraLightIt.woff",
       "PackagePath": "staticwebassets\\fonts\\SourceSansPro-ExtraLightIt.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-It.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-It.woff",
       "PackagePath": "staticwebassets\\fonts\\SourceSansPro-It.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-Light.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-Light.woff",
       "PackagePath": "staticwebassets\\fonts\\SourceSansPro-Light.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-LightIt.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-LightIt.woff",
       "PackagePath": "staticwebassets\\fonts\\SourceSansPro-LightIt.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-Regular.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-Regular.woff",
       "PackagePath": "staticwebassets\\fonts\\SourceSansPro-Regular.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-Semibold.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-Semibold.woff",
       "PackagePath": "staticwebassets\\fonts\\SourceSansPro-Semibold.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-SemiboldIt.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\SourceSansPro-SemiboldIt.woff",
       "PackagePath": "staticwebassets\\fonts\\SourceSansPro-SemiboldIt.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\roboto-regular.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\roboto-regular.woff",
       "PackagePath": "staticwebassets\\fonts\\roboto-regular.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\roboto-v15-latin-300.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\roboto-v15-latin-300.woff",
       "PackagePath": "staticwebassets\\fonts\\roboto-v15-latin-300.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\roboto-v15-latin-700.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\roboto-v15-latin-700.woff",
       "PackagePath": "staticwebassets\\fonts\\roboto-v15-latin-700.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\roboto-v15-latin-regular.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\roboto-v15-latin-regular.woff",
       "PackagePath": "staticwebassets\\fonts\\roboto-v15-latin-regular.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\roboto-v30-latin-300.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\roboto-v30-latin-300.woff",
       "PackagePath": "staticwebassets\\fonts\\roboto-v30-latin-300.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\roboto-v30-latin-500.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\roboto-v30-latin-500.woff",
       "PackagePath": "staticwebassets\\fonts\\roboto-v30-latin-500.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\roboto-v30-latin-700.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\roboto-v30-latin-700.woff",
       "PackagePath": "staticwebassets\\fonts\\roboto-v30-latin-700.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\roboto-v30-latin-regular.woff",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\fonts\\roboto-v30-latin-regular.woff",
       "PackagePath": "staticwebassets\\fonts\\roboto-v30-latin-regular.woff"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\index.html",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

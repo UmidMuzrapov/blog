@@ -11,7 +11,7 @@
 
             if (obj is Tag)
             {
-                return this.Tname.Equals(((Tag)obj).Tname);
+                return this.Tname.Equals(((Tag)obj).Tname, StringComparison.OrdinalIgnoreCase);
             }
 
             return false;
@@ -19,7 +19,15 @@
 
         public override int GetHashCode()
         {
-            return Tname.GetHashCode();
+            return FirstCharToUpper(Tname.ToLower()).GetHashCode();
         }
+
+        public string FirstCharToUpper(string input) =>
+        input switch
+        {
+            null => throw new ArgumentNullException(nameof(input)),
+            "" => throw new ArgumentException($"{nameof(input)} cannot be empty", nameof(input)),
+            _ => string.Concat(input[0].ToString().ToUpper(), input.AsSpan(1))
+        };
     }
 }
