@@ -73,6 +73,10 @@
       "PackagePath": "staticwebassets\\data\\json\\tags.json"
     },
     {
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\workExperience.json",
+      "PackagePath": "staticwebassets\\data\\json\\workExperience.json"
+    },
+    {
       "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

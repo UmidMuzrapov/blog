@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WHtuJbXLZgDkrikN9jZWsNvcfBgYb7H74XbQnv3mPJE=",
+  "Hash": "RfN7OmNVkFX03SZEpiyY7xbbO95Ci1FT9U1SfeCcPY0=",
   "Source": "blog",
   "BasePath": "/",
   "Mode": "Root",
@@ -7886,6 +7886,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\json\\tags.json"
+    },
+    {
+      "Identity": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\workExperience.json",
+      "SourceId": "blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "data/json/workExperience.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\json\\workExperience.json"
     },
     {
       "Identity": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\favicon.ico",

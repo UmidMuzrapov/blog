@@ -1,53 +1,36 @@
 ﻿@page "/professional"
+@using Entity
+@inject HttpClient http
 
 <div class="limit-width">
     <RadzenCard>
-<h3>Student Software Developer</h3>
-<p>July 2022 – Present</p>
-<p>University of Arizona, Tucson, AZ</p>
+        <RadzenTimeline>
+            <Items>
+                @foreach (WorkExperience job in jobs)
+                {
+                    <RadzenTimelineItem PointStyle="PointStyle.Secondary" PointSize="PointSize.Medium"> 
+                        <LabelContent>
+                            <RadzenText TextStyle="TextStyle.Subtitle2" Class="rz-m-0">@job.startDate?.ToShortDateString() - @(job.endDate?.ToShortDateString() ?? "Present")</RadzenText>
+                        </LabelContent>
+                        <ChildContent>
+                            @job.Title at @job.Company
+                        </ChildContent>
+                    </RadzenTimelineItem>
+                }
 
-<ul>
-    <li>Developed a distributed web system to create and maintain the records of chemical sprays across the campus.</li>
-    <li>Analyzed architectural and functional requirements to model the problem domain, designing components, interfaces, classes, and their relationships.</li>
-    <li>Created REST APIs for CRUD operations in Oracle Database, with the endpoints supporting asynchronous calls for batch operations.</li>
-    <li>Wrote comprehensive unit and integration tests with Mockito, JUnit, and NUnit, with code coverage exceeding 90%.</li>
-</ul>
-
-<h3>Software Developer Intern</h3>
-<p>May 2023 – August 2023</p>
-<p>Amazon Web Services, Sunnyvale, CA</p>
-
-<ul>
-    <li>Worked on the Internet of Things team to develop a web application for big customers to grant end users direct management of their resources.</li>
-    <li>Architected a horizontally scalable web application in collaboration with senior engineers, which can support up to forty million users and 10,000 groups, with an average latency of 627 ms.</li>
-    <li>Participated in code reviews to ensure the highest coding standards and receive timely feedback.</li>
-    <li>Built microservices to logically isolate tenant resources and data plane, using Serverless Application Model, Cloud Formation, and Lambda.</li>
-    <li>Orchestrated services to dynamically generate scoped IAM permissions to secure tenant resources and improve user experience.</li>
-</ul>
-
-<h3>Software Developer Intern</h3>
-<p>May 2022 – July 2022</p>
-<p>TechCore, Tucson, AZ</p>
-
-<ul>
-    <li>Worked in the backend team to create the conceptual schema for Radian 360, an anonymous feedback platform.</li>
-    <li>Created an event mediator to coordinate feedback delivery services, ensuring timely message delivery and consistency.</li>
-    <li>Fixed the bugs related to message queuing, decreasing the error rate by 20%.</li>
-</ul>
-
-<h3>IT Support Technician</h3>
-<p>January 2022 – July 2022</p>
-<p>University of Arizona, Tucson, AZ</p>
-
-<ul>
-    <li>Provided technical support to system users of the College of Medicine, maintaining a 100% customer satisfaction score, and closing over 500 tickets.</li>
-    <li>Partnered with infrastructure, development, and security teams to determine solutions to efficiently manage complex service requests.</li>
-    <li>Assisted users with software installations, network setup, user-at-home remote setups, and extensive computer troubleshooting.</li>
-</ul>
+            </Items>
+        </RadzenTimeline>
     </RadzenCard>
 </div>
 @code {
+    private List<WorkExperience> jobs = new List<WorkExperience>();
 
+    protected async override void OnInitialized()
+    {
+        string endPoint = http.BaseAddress + "data/json/";
+        jobs = await http.GetFromJsonAsync<List<WorkExperience>>(endPoint + "workExperience.json");
+        StateHasChanged();
+    }
 }
 
 
