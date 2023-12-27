@@ -77,6 +77,10 @@
       "PackagePath": "staticwebassets\\data\\json\\workExperience.json"
     },
     {
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\pdf\\Resume.pdf",
+      "PackagePath": "staticwebassets\\data\\pdf\\Resume.pdf"
+    },
+    {
       "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

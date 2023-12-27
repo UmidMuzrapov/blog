@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RfN7OmNVkFX03SZEpiyY7xbbO95Ci1FT9U1SfeCcPY0=",
+  "Hash": "8WylRHvbs3F8dnN9rWuvSmh6/mZ7jEywWcQnJ9Ss9To=",
   "Source": "blog",
   "BasePath": "/",
   "Mode": "Root",
@@ -7903,6 +7903,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\json\\workExperience.json"
+    },
+    {
+      "Identity": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\pdf\\Resume.pdf",
+      "SourceId": "blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "data/pdf/Resume.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\pdf\\Resume.pdf"
     },
     {
       "Identity": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\favicon.ico",
