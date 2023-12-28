@@ -1,0 +1,28 @@
+﻿@if (Skill!=null)
+{
+    <div id="skill-card">
+
+        <div class="frame">
+
+            <div class="card-body">
+                @if (Skill.Level>=80) SkillColor="rz-background-color-success-light";
+                else if (Skill.Level>60 & Skill.Level<80) SkillColor="rz-background-color-warning-light";
+                else SkillColor="rz-background-color-danger-light";
+                
+                <div class="progress">
+                    <div class="progress-bar @SkillColor" role="progressbar" aria-label="Basic example" style="width: @Skill.Level%" aria-valuenow="@Skill.Level" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p class="card-text">@Skill.Name</p>
+            </div>
+        </div>
+    </div>
+
+}
+
+
+@code {
+    [Parameter]
+    public Entity.Skill Skill { get; set; }
+
+    public string SkillColor { get; set;}
+}

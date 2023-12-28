@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets\\data\\json\\projects.json"
     },
     {
+      "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\skills.json",
+      "PackagePath": "staticwebassets\\data\\json\\skills.json"
+    },
+    {
       "Id": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\tags.json",
       "PackagePath": "staticwebassets\\data\\json\\tags.json"
     },

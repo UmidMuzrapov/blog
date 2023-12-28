@@ -1,0 +1,111 @@
+[
+
+  {
+    "name": "AWS",
+    "image": "/pages/dataPhotos/skills/python.png",
+    "level": "85"
+  },
+  {
+    "name": "Python",
+    "image": "/pages/dataPhotos/skills/python.png",
+    "level": "80"
+  },
+  {
+    "name": "Java",
+    "image": "/pages/dataPhotos/skills/java.jpg",
+    "level": "90"
+  },
+  {
+    "name": "C#",
+    "image": "/pages/dataPhotos/skills/cSharp.png",
+    "level": "90"
+  },
+  {
+    "name": "JavaScript",
+    "image": "/pages/dataPhotos/skills/javascript.png",
+    "level": "70"
+  },
+  {
+    "name": "HTML",
+    "image": "/pages/dataPhotos/skills/html.png",
+    "level": "90"
+  },
+  {
+    "name": "CSS",
+    "image": "/pages/dataPhotos/skills/css.jpg",
+    "level": "80"
+  },
+  {
+    "name": "Haskell",
+    "image": "/pages/dataPhotos/skills/python.png",
+    "level": "75"
+  },
+
+  {
+    "name": "LISP",
+    "image": "/pages/dataPhotos/skills/python.png",
+    "level": "75"
+  },
+  {
+    "name": "SQL",
+    "image": "/pages/dataPhotos/skills/sql.jpg",
+    "level": "70"
+  },
+  {
+    "name": "Blazor",
+    "image": "/pages/dataPhotos/skills/blazor.png",
+    "level": "90"
+  },
+  {
+    "name": "Terminal",
+    "image": "/pages/dataPhotos/skills/commandLine.jpeg",
+    "level": "75"
+  },
+  {
+    "name": "Docker",
+    "image": "/pages/dataPhotos/skills/docker.png",
+    "level": "75"
+  },
+  {
+    "name": ".Net Framework",
+    "image": "/pages/dataPhotos/skills/netFramework.png",
+    "level": "75"
+  },
+  {
+    "name": "Object-Oriented Programming",
+    "image": "/pages/dataPhotos/skills/objectOrientedDesign.jpeg",
+    "level": "90"
+  },
+  {
+    "name": "Unit Testing",
+    "image": "/pages/dataPhotos/skills/other.jpeg",
+    "level": "85"
+  },
+  {
+    "name": "SQLite",
+    "image": "/pages/dataPhotos/skills/SQLite.jpg",
+    "level": "75"
+  },
+  {
+    "name": "Software Development Models",
+    "image": "/pages/dataPhotos/skills/other.jpeg",
+    "level": "80"
+  },
+  {
+    "name": "Requirement Analysis",
+    "image": "/pages/dataPhotos/skills/other.jpeg",
+    "level": "80"
+  },
+  {
+    "name": "Software Architectural Styles",
+    "image": "/pages/dataPhotos/skills/python.png",
+    "level": "75"
+  },
+
+  {
+    "name": "Desing Patterns",
+    "image": "/pages/dataPhotos/skills/python.png",
+    "level": "75"
+  }
+
+]

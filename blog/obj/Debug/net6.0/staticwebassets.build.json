@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8WylRHvbs3F8dnN9rWuvSmh6/mZ7jEywWcQnJ9Ss9To=",
+  "Hash": "0pc8dEO1i2xM9+CISc3/OHIM+f3B5L/F8yghi7pHhF4=",
   "Source": "blog",
   "BasePath": "/",
   "Mode": "Root",
@@ -7869,6 +7869,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\json\\projectTags.json"
+    },
+    {
+      "Identity": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\skills.json",
+      "SourceId": "blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "data/json/skills.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\json\\skills.json"
     },
     {
       "Identity": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\tags.json",

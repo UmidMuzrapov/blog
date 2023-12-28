@@ -4,6 +4,7 @@
 
 <div class="limit-width">
     <RadzenCard>
+        <div class="custom-card-header"><RadzenText Text="Professional Experience" TextStyle="TextStyle.DisplayH6"> </RadzenText></div>
         <RadzenTimeline>
             <Items>
                 @foreach (WorkExperience job in jobs)
@@ -17,21 +18,36 @@
                         </ChildContent>
                     </RadzenTimelineItem>
                 }
-
             </Items>
         </RadzenTimeline>
 
         <RadzenButton ButtonStyle="ButtonStyle.Light"> <RadzenLink Path=@(http.BaseAddress + "data/pdf/Resume.pdf") Text="Download Resume"></RadzenLink> </RadzenButton>
     </RadzenCard>
+
+    <RadzenCard>
+        <div class="custom-card-header"><RadzenText Text="Skills" TextStyle="TextStyle.DisplayH6"> </RadzenText></div>
+        <div class="flex-container">
+
+     
+        @foreach (Skill skill in skills)
+        {
+            <div class="flex-item">
+            <SkillCard Skill=@skill> </SkillCard>
+            </div>
+        }
+        </div>
+    </RadzenCard>
 </div>
 
 @code {
     private List<WorkExperience> jobs = new List<WorkExperience>();
+    private List<Skill> skills = new List<Skill>();
 
     protected async override void OnInitialized()
     {
         string endPoint = http.BaseAddress + "data/json/";
         jobs = await http.GetFromJsonAsync<List<WorkExperience>>(endPoint + "workExperience.json");
+        skills = await http.GetFromJsonAsync<List<Skill>>(endPoint + "skills.json");
         StateHasChanged();
     }
 }
