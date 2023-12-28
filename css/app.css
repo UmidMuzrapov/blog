@@ -192,4 +192,12 @@ a, .btn-link {
 
     .inner-card::-webkit-scrollbar {
         display: none;
-    }
+    
+     }
+
+.rz-card{
+    margin: 10px 0px 10px 0px;
+}
+
+.custom-card-header{
+}
