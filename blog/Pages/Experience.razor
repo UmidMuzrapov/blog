@@ -11,10 +11,10 @@
                 {
                     <RadzenTimelineItem PointStyle="PointStyle.Secondary" PointSize="PointSize.Medium"> 
                         <LabelContent>
-                            <RadzenText TextStyle="TextStyle.Subtitle2" Class="rz-m-0">@job.startDate?.ToShortDateString() - @(job.endDate?.ToShortDateString() ?? "Present")</RadzenText>
+                            <RadzenText TextStyle="TextStyle.Subtitle1" Class="rz-m-0">@job.startDate?.ToShortDateString() - @(job.endDate?.ToShortDateString() ?? "Present")</RadzenText>
                         </LabelContent>
                         <ChildContent>
-                            @job.Title at @job.Company
+                                <RadzenText Text=@(job.Title + " at " +@job.Company) TextStyle="TextStyle.Body1"> </RadzenText>
                         </ChildContent>
                     </RadzenTimelineItem>
                 }
