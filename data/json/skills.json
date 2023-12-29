@@ -16,6 +16,11 @@
     "level": "90"
   },
   {
+    "name": "C",
+    "image": "/pages/dataPhotos/skills/java.jpg",
+    "level": "85"
+  },
+  {
     "name": "C#",
     "image": "/pages/dataPhotos/skills/cSharp.png",
     "level": "90"
@@ -40,7 +45,11 @@
     "image": "/pages/dataPhotos/skills/python.png",
     "level": "75"
   },
-
+  {
+    "name": "Bash Script",
+    "image": "/pages/dataPhotos/skills/java.jpg",
+    "level": "90"
+  },
   {
     "name": "LISP",
     "image": "/pages/dataPhotos/skills/python.png",
@@ -49,7 +58,7 @@
   {
     "name": "SQL",
     "image": "/pages/dataPhotos/skills/sql.jpg",
-    "level": "70"
+    "level": "90"
   },
   {
     "name": "Blazor",
@@ -57,9 +66,9 @@
     "level": "90"
   },
   {
-    "name": "Terminal",
+    "name": "Linux Terminal",
     "image": "/pages/dataPhotos/skills/commandLine.jpeg",
-    "level": "75"
+    "level": "85"
   },
   {
     "name": "Docker",
@@ -69,7 +78,7 @@
   {
     "name": ".Net Framework",
     "image": "/pages/dataPhotos/skills/netFramework.png",
-    "level": "75"
+    "level": "80"
   },
   {
     "name": "Object-Oriented Programming",
@@ -82,9 +91,9 @@
     "level": "85"
   },
   {
-    "name": "SQLite",
+    "name": "Oracle DBMS",
     "image": "/pages/dataPhotos/skills/SQLite.jpg",
-    "level": "75"
+    "level": "85"
   },
   {
     "name": "Software Development Models",
@@ -99,13 +108,20 @@
   {
     "name": "Software Architectural Styles",
     "image": "/pages/dataPhotos/skills/python.png",
-    "level": "75"
+    "level": "85"
   },
 
   {
     "name": "Desing Patterns",
     "image": "/pages/dataPhotos/skills/python.png",
     "level": "75"
+  },
+
+  {
+    "name": "Database Desing",
+    "image": "/pages/dataPhotos/skills/python.png",
+    "level": "85"
   }
+
 
 ]
