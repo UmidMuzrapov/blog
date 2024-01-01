@@ -1,5 +1,13 @@
 [
   {
+    "pname": "My make",
+    "tname": "C Progam. Lang."
+  },
+  {
+    "pname": "My make",
+    "tname": "System Programming"
+  },
+  {
     "pname": "C Tester",
     "tname": "Bash"
   },

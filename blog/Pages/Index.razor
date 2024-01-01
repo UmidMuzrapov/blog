@@ -52,7 +52,7 @@
                     </RadzenText>
                 </RadzenRow>
 
-                <RadzenRow Style="margin-top: 10px;">
+                <RadzenRow Style="margin-top: 10px; overflow-wrap:break-word;    flex-wrap: wrap;">
                     <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=UmidMuzrapov&layout=compact&langs_count=8&theme=default&hide_border=true&custom_title=Languages%20Used%20&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&exclude_repo=simple-badges" alt="Languages Used (By File Size)">                    
                 </RadzenRow>
                 
@@ -60,7 +60,7 @@
 
             <RadzenCard>
                 <RadzenText Text="Courses" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3" Style="padding-top: 20px" ></RadzenText>
-                <RadzenDataGrid Data="@courses" TItem="Course" AllowSorting="true" AllowPaging="true"  PageSize="10">
+                <RadzenDataGrid Data="@courses" TItem="Course" AllowSorting="true" AllowPaging="true"  PageSize="10" ShowExpandColumn=true>
                     <Columns>
                         <RadzenDataGridColumn TItem="Course" Property="Name" Title="Course"/>
                         <RadzenDataGridColumn TItem="Course" Property="Description" Title="Description" />
