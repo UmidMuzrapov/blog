@@ -1,0 +1,91 @@
+[
+  {
+    "name": "CSC 345, Analysis of Discrete Structures",
+    "grade": "Pending",
+    "description": "Introduction to and analysis of algorithms and characteristics of discrete structures. Course topics include algorithm analysis techniques, recurrence relations, structural induction, hierarchical structures, graphs, hashing, and sorting."
+  },
+
+  {
+    "name": "CSC 460, Database Design",
+    "grade": "Pending",
+    "description": "Functions of a database system. Data modeling and logical database design. Query languages and query optimization. Efficient data storage and access. Database access through standalone and web applications."
+  },
+
+  {
+    "name": "CSC 323, Formal Mathematical Reasoning and Writing",
+    "grade": "Pending",
+    "description": "Elementary real analysis as an introduction to abstract mathematics and the use of mathematical language. Elementary logic and quantifiers; manipulations with sets, relations and functions, including images and pre-images; properties of the real numbers; supreme and infimum; other topics selected from cardinality, the topology of the real line, sequence and limits of sequences and functions; the emphasis throughout is on proving theorems."
+  },
+
+  {
+    "name": "CSC 352, Systems Programming and Unix",
+    "grade": "Pending",
+    "description": "This course is an in-depth introduction to C programming and Unix. C programming topics (comprising roughly 2/3 of the course) include pointers; arrays; structures and unions; dynamic memory allocation and dynamic data structures such as lists and trees; conditional compilation; and bit manipulation. Unix topics (comprising roughly 1/3 of the course) include debuggers; makefiles; shell programming; profiling and performance tuning; and other topics that support C programming."
+  },
+
+  {
+    "name": "CSC 345, Analysis of Discrete Structures",
+    "grade": "Pending",
+    "description": "Introduction to and analysis of algorithms and characteristics of discrete structures. Course topics include algorithm analysis techniques, recurrence relations, structural induction, hierarchical structures, graphs, hashing, and sorting."
+  },
+
+  {
+    "name": "CSC 252, Computer Organization",
+    "grade": "Pending",
+    "description": "Basic machine organization; elementary hardware concepts; CPU internals.  Machine operations and instructions; assembly language concepts and programming."
+  },
+
+  {
+    "name": "CSC 335, Object-Oriented Programming and Design",
+    "grade": "Pending",
+    "description": "Fundamentals of object-oriented software development. Includes design principles, inheritance, polymorphism, Unified Modeling Language (UML), testing, event-driven programming with graphical user interfaces, applications of design patterns, and use of existing frameworks."
+  },
+
+  {
+    "name": "CSC 210, Software Development",
+    "grade": "A",
+    "description": "An introduction to the development of large-scale software. Topics include modularization, design patterns, documentation, unit testing, source code control, build systems, debugging, and performace tuning."
+  },
+
+  {
+    "name": "CSC 244, Discrete Math II",
+    "grade": "A",
+    "description": "A second course in mathematical concepts for computer science.  Topics include: recurrence relations; proofs in  propositional and first-order predicate logic; mathematical induction; graphs and trees; regular expressions and finite state machines."
+  },
+
+  {
+    "name": "CSC 346, Cloud Computing",
+    "grade": "A",
+    "description": "This course focuses on cloud programming, with an emphasis on using the cloud to solve Big Data problems. The course will not only look at how distributed systems, databases, networks, etc. are used to implement cloud computing platforms and cloud applications, but also the impact of the infinite scalability and pay-as-you-go on the platforms and applications."
+  },
+
+  {
+    "name": "MATH 223, Vector Calculus",
+    "grade": "A",
+    "description": "Math 223 Vector Calculus (4 semester credit hours) The course covers differential and integral calculus of functions of several variables. Topics include vector valued and scalar functions, partial derivatives, directional derivatives, chain rule, local optimization, double and triple integrals, the line integral, Green's theorem, Stokes' theorem and the Divergence theorem."
+  },
+
+  {
+    "name": "MATH 313, Introduction to Linear Algebra",
+    "grade": "A",
+    "description": "An algorithmic approach to solving systems of linear equations transitions into the study of vectors, vector spaces and dimension. Matrices are used to represent linear transformations and this leads to eigenvectors and eigenvalues. The precise use of definitions plays an important role. Examinations are proctored. This course is required in the math major and prepares students to take Math 323. It is a prerequisite to the majority of the higher level courses in mathematics."
+  },
+
+  {
+    "name": "CSC 120, Intro to Computer Prog II",
+    "grade": "A",
+    "description": "Provides a continuin introduction to programming with an emphasis on problemsolving. It considers problems drawn from a variety of domains and emphasizes both the broader applicability of the relevant data structures and programming concepts, as well as the implementation of those structures and programming concepts in sosoftware."
+  },
+
+  {
+    "name": "CSC 144, Discrete Math fo Comp Sci I",
+    "grade": "A",
+    "description": "The first of a two-course sequence introducing mathematical concepts for Computer Science. Topics include: sets, functions, and relations; propositional and predicate logic; foundational combinatorics; discrete probability; modular arithmetic; and recurrence relations."
+  },
+
+  {
+    "name": "MATH 129, Calculus II",
+    "grade": "A",
+    "description": "Continuation of MATH 122B or MATH 125. Techniques of symbolic and numerical integration, applications of the definite integral to geometry, physics, economics, and probability; differential equations from a numerical, graphical, and algebraic point of view; modeling using differential equations, approximations by Taylor series."
+  }
+]

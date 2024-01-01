@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0pc8dEO1i2xM9+CISc3/OHIM+f3B5L/F8yghi7pHhF4=",
+  "Hash": "5W51rZeb3cX4x8uibC8VSMYscvg2xjErPxMAWynkGis=",
   "Source": "blog",
   "BasePath": "/",
   "Mode": "Root",
@@ -7903,6 +7903,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\json\\tags.json"
+    },
+    {
+      "Identity": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\universityCourses.json",
+      "SourceId": "blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "data/json/universityCourses.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\json\\universityCourses.json"
     },
     {
       "Identity": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\wwwroot\\data\\json\\workExperience.json",

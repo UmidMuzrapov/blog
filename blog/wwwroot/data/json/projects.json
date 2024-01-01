@@ -1,6 +1,20 @@
 [
   {
-    "pname" :  "Multi-Tenancy for AWS IoT Wireless",
+    "pname": "C Tester",
+    "starDate": "2023-11-5",
+    "endDate": "2023-11-15",
+    "overview": "This is a bash script for testing C programs. It is especially useful for instructors to check the student executable against the example executable."
+  },
+
+  {
+    "pname": "Bacon Score",
+    "endDate": "2023-12-10",
+    "starDate": "2023-12-01",
+    "overview": "The program calculates the bacon score of various actors based on the given input file. Kevin Bacon is a prolific actor, and the Bacon score is the number of movies it take an actor to connect with Kevin Bacon."
+  },
+
+  {
+    "pname": "Multi-Tenancy for AWS IoT Wireless",
     "endDate": "2023-08-20",
     "startDate": "2023-05-13",
     "overview": "Multi-Tenancy for AWS IoT Wireless is a distributed, multi-tenant software that demonstrates to AWS IoT Wireless customers how to logically isolate data plane and LoRaWAN resources."
@@ -8,7 +22,7 @@
 
   {
     "startDate": "2022-10-10",
-    "endDate":  "2022-12-10",
+    "endDate": "2022-12-10",
     "pname": "Chat App",
     "overview": "Chat App allows the users to chat after a successful log-in. Images are resized and stored in AWS S3. The service also uses cashing and cookies.",
     "gitHubLink": "https://github.com/UmidMuzrapov/chatApp"
@@ -25,7 +39,7 @@
 
   {
     "startDate": "2023-04-01",
-    "endDate":  "2023-04-21",
+    "endDate": "2023-04-21",
     "pname": "Wordle",
     "overview": "The is Worlde, an interactive game with beautiful UI. The game keeps track of each user, maintains the user's state, and shows game statistics.",
     "gitHubLink": "https://github.com/UmidMuzrapov/java/tree/main/wordle"
@@ -49,7 +63,7 @@
 
   {
     "startDate": "2022-09-05",
-    "endDate" :"2022-09-15",
+    "endDate": "2022-09-15",
     "pname": "Cheap Houses",
     "overview": "The program reads data from a CSV file, and plots the the houses.",
     "gitHubLink": "https://github.com/UmidMuzrapov/java/tree/main/cheapHouses/src"

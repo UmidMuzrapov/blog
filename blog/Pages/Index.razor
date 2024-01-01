@@ -1,4 +1,5 @@
 @page "/"
+@using blog.Entity;
 @inject HttpClient Http
 
 <PageTitle>Home</PageTitle>
@@ -24,7 +25,7 @@
                 </RadzenRow>
             </RadzenCard>
 
-            <RadzenCard Style="margin-top: 40px; padding: 20px 40px 40px;">
+            <RadzenCard>
                 <RadzenRow>
 
                     <RadzenText Text="About me" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3" Style="padding-top: 20px"></RadzenText>
@@ -50,6 +51,22 @@
                         The primary purpose of this site is to showase my projects and give infromation about me. The projects are done independently, as a part of schoolwork or an online course. If you have any question regarding my projects, feel free to email me.
                     </RadzenText>
                 </RadzenRow>
+
+                <RadzenRow Style="margin-top: 10px;">
+                    <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=UmidMuzrapov&layout=compact&langs_count=8&theme=default&hide_border=true&custom_title=Languages%20Used%20&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&exclude_repo=simple-badges" alt="Languages Used (By File Size)">                    
+                </RadzenRow>
+                
+            </RadzenCard>
+
+            <RadzenCard>
+                <RadzenText Text="Courses" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3" Style="padding-top: 20px" ></RadzenText>
+                <RadzenDataGrid Data="@courses" TItem="Course" AllowSorting="true" AllowPaging="true"  PageSize="10">
+                    <Columns>
+                        <RadzenDataGridColumn TItem="Course" Property="Name" Title="Course"/>
+                        <RadzenDataGridColumn TItem="Course" Property="Description" Title="Description" />
+                    </Columns>
+
+                </RadzenDataGrid>
             </RadzenCard>
 
         </RadzenColumn>
@@ -59,5 +76,12 @@
 
 
 @code {
+    List<Course> courses = new List<Course>();
 
+    protected async override void OnInitialized()
+    {
+        string endPoint = Http.BaseAddress + "data/json/";
+        courses = await Http.GetFromJsonAsync<List<Course>>(endPoint + "universityCourses.json");
+        StateHasChanged();
+    }
 }

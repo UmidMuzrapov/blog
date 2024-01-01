@@ -1,11 +1,29 @@
 [
   {
+    "pname": "C Tester",
+    "tname": "Bash"
+  },
+
+  {
+    "pname": "C Tester",
+    "tname": "C Progam. Lang."
+  },
+
+  {
+    "pname": "Bacon Score",
+    "tname": "C Progam. Lang."
+  },
+  {
+    "pname": "Bacon Score",
+    "tname": "Linux"
+  },
+  {
     "pname": "Wordle",
     "tname": "Java"
   },
   {
     "pname": "Wordle",
-    "tname" : "JavaFX"
+    "tname": "JavaFX"
   },
   {
     "pname": "Multi-Tenancy for AWS IoT Wireless",
