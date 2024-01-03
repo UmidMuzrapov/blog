@@ -1,5 +1,23 @@
 [
   {
+    "tname": "Prolog"
+  },
+  {
+    "tname": "Logic Programming"
+  },
+  {
+    "tname": "Haskell"
+  },
+  {
+    "tname": "Functional Programming"
+  },
+  {
+    "tname": "Racket"
+  },
+  {
+    "tname": "LISP"
+  },
+  {
     "tname": "System Programming"
   },
 
