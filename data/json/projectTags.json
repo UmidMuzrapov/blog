@@ -1,5 +1,29 @@
 [
   {
+    "pname": "Haskell Shorts",
+    "tname": "Haskell"
+  },
+  {
+    "pname": "Haskell Shorts",
+    "tname": "Functional Programming"
+  },
+  {
+    "pname": "Racket/LISP Shorts",
+    "tname": "Racket"
+  },
+  {
+    "pname": "Racket/LISP Shorts",
+    "tname": "LISP"
+  },
+  {
+    "pname": "Prolog Shorts",
+    "tname": "Logic Programming"
+  },
+  {
+    "pname": "Prolog Shorts",
+    "tname": "Prolog"
+  },
+  {
     "pname": "My make",
     "tname": "C Progam. Lang."
   },
