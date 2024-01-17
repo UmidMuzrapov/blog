@@ -1,35 +1,45 @@
 [
   {
-    "tname": "Prolog"
+    "tname": "Prolog",
+    "descriptionLink": "https://www.swi-prolog.org/"
   },
   {
-    "tname": "Logic Programming"
+    "tname": "Logic Programming",
+    "descriptionLink": "https://en.wikipedia.org/wiki/Logic_programming"
   },
   {
-    "tname": "Haskell"
+    "tname": "Haskell",
+    "descriptionLink": "https://www.haskell.org/"
   },
   {
-    "tname": "Functional Programming"
+    "tname": "Functional Programming",
+    "descriptionLink": "https://en.wikipedia.org/wiki/Functional_programming"
   },
   {
-    "tname": "Racket"
+    "tname": "Racket",
+    "descriptionLink": "https://racket-lang.org/"
   },
   {
-    "tname": "LISP"
+    "tname": "LISP",
+    "descriptionLink": "https://lisp-lang.org/"
   },
   {
-    "tname": "System Programming"
+    "tname": "System Programming",
+    "descriptionLink": "https://en.wikipedia.org/wiki/Systems_programming"
   },
 
   {
-    "tname": "Bash"
+    "tname": "Bash",
+    "descriptionLink": "https://www.gnu.org/software/bash/"
   },
 
   {
-    "tname": "Linux"
+    "tname": "Linux",
+    "descriptionLink": "https://www.linux.org/"
   },
   {
-    "tname": "C Progam. Lang."
+    "tname": "C Progam. Lang.",
+    "decriptionLink": "https://en.wikipedia.org/wiki/C_(programming_language)"
   },
   {
     "tname": "AWS"
