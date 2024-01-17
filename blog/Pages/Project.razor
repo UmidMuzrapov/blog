@@ -20,7 +20,12 @@
                         <RadzenText TextStyle="TextStyle.Overline" class="rz-display-flex rz-mt-2 rz-my-0">Name</RadzenText>
                         <RadzenText TextStyle="TextStyle.Body1"><b>@project.Project.Pname</b></RadzenText>
                         <RadzenText TextStyle="TextStyle.Overline" class="rz-display-flex rz-mt-4 rz-mb-0">Tags</RadzenText>
-                        <RadzenText TextStyle="TextStyle.Body2">@GetTags(project)</RadzenText>
+                        <div style="align-items:start" >
+                            @foreach (var tag in project.Tags)
+                            {
+                                    <RadzenLink Path="@tag.DescriptionLink" Style="margin: 3px; padding: 3px; background: #d6e4f0;"> <RadzenText TextStyle="TextStyle.Overline">@tag.Tname </RadzenText> </RadzenLink>
+                            }
+                         </div>
                     </RadzenStack>
                 </RadzenStack>
                     <RadzenCard class="rz-background-color-primary-light rz-shadow-0 rz-border-radius-0 rz-p-8 inner-card" style="margin: 1rem calc(-1 * var(--rz-card-padding));">
