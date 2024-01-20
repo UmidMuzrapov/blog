@@ -37,14 +37,17 @@
     "tname": "Linux",
     "descriptionLink": "https://www.linux.org/"
   },
+
   {
     "tname": "C Progam. Lang.",
     "decriptionLink": "https://en.wikipedia.org/wiki/C_(programming_language)"
   },
+
   {
     "tname": "AWS",
     "decriptionLink": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html"
   },
+
   {
     "tname": "Cognito",
     "decriptionLink": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html"
@@ -61,7 +64,6 @@
     "tname": "Distributed",
     "decriptionLink": "https://en.wikipedia.org/wiki/Distributed_computing"
   },
-
   {
     "tname": "Java",
     "descriptionLink": "https://www.java.com/en/"
