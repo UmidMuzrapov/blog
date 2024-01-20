@@ -40,29 +40,29 @@
 
   {
     "tname": "C Progam. Lang.",
-    "decriptionLink": "https://en.wikipedia.org/wiki/C_(programming_language)"
+    "descriptionLink": "https://en.wikipedia.org/wiki/C_(programming_language)"
   },
 
   {
     "tname": "AWS",
-    "decriptionLink": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html"
+    "descriptionLink": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html"
   },
 
   {
     "tname": "Cognito",
-    "decriptionLink": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html"
+    "descriptionLink": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html"
   },
   {
     "tname": "ASP.NET",
-    "decriptionLink": "https://dotnet.microsoft.com/en-us/apps/aspnet"
+    "descriptionLink": "https://dotnet.microsoft.com/en-us/apps/aspnet"
   },
   {
     "tname": "React",
-    "decriptionLink": "https://react.dev/"
+    "descriptionLink": "https://react.dev/"
   },
   {
     "tname": "Distributed",
-    "decriptionLink": "https://en.wikipedia.org/wiki/Distributed_computing"
+    "descriptionLink": "https://en.wikipedia.org/wiki/Distributed_computing"
   },
   {
     "tname": "Java",
@@ -74,26 +74,26 @@
   },
   {
     "tname": "Caching",
-    "decriptionLink": "https://en.wikipedia.org/wiki/Web_cache"
+    "descriptionLink": "https://en.wikipedia.org/wiki/Web_cache"
   },
   {
     "tname": "SSO",
-    "decriptionLink": "https://en.wikipedia.org/wiki/Single_sign-on"
+    "descriptionLink": "https://en.wikipedia.org/wiki/Single_sign-on"
   },
   {
     "tname": "REST",
-    "decriptionLink": "https://en.wikipedia.org/wiki/REST"
+    "descriptionLink": "https://en.wikipedia.org/wiki/REST"
   },
   {
     "tname": "JavaFX",
-    "decriptionLink": "https://docs.oracle.com/javase/8/javafx/get-started-tutorial/jfx-overview.htm"
+    "descriptionLink": "https://docs.oracle.com/javase/8/javafx/get-started-tutorial/jfx-overview.htm"
   },
   {
     "tname": "Algorithms",
-    "decriptionLink": "https://en.wikipedia.org/wiki/Algorithm"
+    "descriptionLink": "https://en.wikipedia.org/wiki/Algorithm"
   },
   {
     "tname": "Python",
-    "decriptionLink": "https://www.python.org/doc/essays/blurb/"
+    "descriptionLink": "https://www.python.org/doc/essays/blurb/"
   }
 ]
