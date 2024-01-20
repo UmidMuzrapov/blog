@@ -42,44 +42,56 @@
     "decriptionLink": "https://en.wikipedia.org/wiki/C_(programming_language)"
   },
   {
-    "tname": "AWS"
+    "tname": "AWS",
+    "decriptionLink": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html"
   },
   {
-    "tname": "Cognito"
+    "tname": "Cognito",
+    "decriptionLink": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html",
   },
   {
-    "tname": "ASP.NET"
+    "tname": "ASP.NET",
+    "decriptionLink": "https://dotnet.microsoft.com/en-us/apps/aspnet"
   },
   {
-    "tname": "React"
+    "tname": "React",
+    "decriptionLink": "https://react.dev/"
   },
   {
-    "tname": "Distributed"
+    "tname": "Distributed",
+    "decriptionLink": "https://en.wikipedia.org/wiki/Distributed_computing"
   },
 
   {
     "tname": "Java",
-    "descriptionLink": "testLink"
+    "descriptionLink": "https://www.java.com/en/"
   },
   {
-    "tname": "JavaScript"
+    "tname": "JavaScript",
+    "decriptionLink": "https://javascript.info/intro"
   },
   {
-    "tname": "Cashing"
+    "tname": "Caching",
+    "decriptionLink": "https://en.wikipedia.org/wiki/Web_cache"
   },
   {
-    "tname": "SSO"
+    "tname": "SSO",
+    "decriptionLink": "https://en.wikipedia.org/wiki/Single_sign-on"
   },
   {
-    "tname": "REST"
+    "tname": "REST",
+    "decriptionLink": "https://en.wikipedia.org/wiki/REST"
   },
   {
-    "tname": "JavaFX"
+    "tname": "JavaFX",
+    "decriptionLink": "https://docs.oracle.com/javase/8/javafx/get-started-tutorial/jfx-overview.htm"
   },
   {
-    "tname": "Algorithms"
+    "tname": "Algorithms",
+    "decriptionLink": "https://en.wikipedia.org/wiki/Algorithm"
   },
   {
-    "tname": "Python"
+    "tname": "Python",
+    "decriptionLink": "https://www.python.org/doc/essays/blurb/"
   }
 ]

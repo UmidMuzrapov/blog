@@ -1,28 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\blog.csproj": {}
+    "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\blog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\blog.csproj": {
+    "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\blog.csproj",
+        "projectUniqueName": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\blog.csproj",
         "projectName": "blog",
-        "projectPath": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\blog.csproj",
-        "packagesPath": "C:\\Users\\umidmuzrapov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\umidmuzrapov\\Documents\\repos\\blog\\blog\\obj\\",
+        "projectPath": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\blog.csproj",
+        "packagesPath": "C:\\Users\\umimu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umimu\\Documents\\repos\\blog\\blog\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\umidmuzrapov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\umimu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -68,7 +73,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.13, 6.0.13]"
+              "version": "[6.0.23, 6.0.23]"
             }
           ],
           "frameworkReferences": {
@@ -76,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
