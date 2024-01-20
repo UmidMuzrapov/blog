@@ -47,7 +47,7 @@
   },
   {
     "tname": "Cognito",
-    "decriptionLink": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html",
+    "decriptionLink": "https://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html"
   },
   {
     "tname": "ASP.NET",
