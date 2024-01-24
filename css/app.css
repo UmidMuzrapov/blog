@@ -337,3 +337,6 @@ a, .btn-link {
     }
 }
 /*Loader*/
+body {
+    background-color: #ffe9e3 !important;
+}
