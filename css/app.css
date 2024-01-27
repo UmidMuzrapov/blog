@@ -340,3 +340,7 @@ a, .btn-link {
 body {
     background-color: #ffe9e3 !important;
 }
+
+body{
+    background-image: none !important;
+}
