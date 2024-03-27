@@ -9,7 +9,7 @@
 
   {
     "pname": "C Tester",
-    "starDate": "2023-11-5",
+    "starDate": "2023-11-05",
     "endDate": "2023-11-15",
     "overview": "This is a bash script for testing C programs. It is especially useful for instructors to check the student executable against the example executable.",
     "gitHubLink": "https://github.com/UmidMuzrapov/C/tree/main/C%20Tester"
