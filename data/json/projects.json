@@ -9,7 +9,7 @@
 
   {
     "pname": "C Tester",
-    "starDate": "2023-11-05",
+    "startDate": "2023-11-05",
     "endDate": "2023-11-15",
     "overview": "This is a bash script for testing C programs. It is especially useful for instructors to check the student executable against the example executable.",
     "gitHubLink": "https://github.com/UmidMuzrapov/C/tree/main/C%20Tester"
@@ -18,7 +18,7 @@
   {
     "pname": "Bacon Score",
     "endDate": "2023-12-10",
-    "starDate": "2023-12-01",
+    "startDate": "2023-12-01",
     "overview": "The program calculates the bacon score of various actors based on the given input file. Kevin Bacon is a prolific actor, and the Bacon score is the number of movies it take an actor to connect with Kevin Bacon.",
     "gitHubLink": "https://github.com/UmidMuzrapov/C/tree/main/Bacon%20score"
 
