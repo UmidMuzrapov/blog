@@ -53,7 +53,7 @@
                 </RadzenRow>
                 
             </RadzenCard>
-
+@* 
             <RadzenCard>
                 <RadzenText Text="Courses" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3" Style="padding-top: 20px" ></RadzenText>
                 <RadzenDataGrid Data="@courses" TItem="Course" AllowSorting="true" AllowPaging="true" PageSize="6">
@@ -72,6 +72,27 @@
                     </Columns>
 
                 </RadzenDataGrid>
+            </RadzenCard> *@
+
+            <RadzenCard>
+                <div class="custom-card-header"><RadzenText Text="Professional Experience" TextStyle="TextStyle.DisplayH6"> </RadzenText></div>
+                <RadzenTimeline>
+                    <Items>
+                        @foreach (WorkExperience job in jobs)
+                        {
+                            <RadzenTimelineItem PointStyle="PointStyle.Secondary" PointSize="PointSize.Medium">
+                                <LabelContent>
+                                    <RadzenText TextStyle="TextStyle.Subtitle1" Class="rz-m-0">@job.startDate?.ToShortDateString() - @(job.endDate?.ToShortDateString() ?? "Present")</RadzenText>
+                                    </LabelContent>
+                                    <ChildContent>
+                                        <RadzenText Text=@(job.Title + " at " +@job.Company) TextStyle="TextStyle.Body1"> </RadzenText>
+                                    </ChildContent>
+                                </RadzenTimelineItem>
+                        }
+                    </Items>
+                </RadzenTimeline>
+
+                <RadzenButton ButtonStyle="ButtonStyle.Light"> <RadzenLink Path=@(Http.BaseAddress + "data/pdf/Resume.pdf") Text="Download Resume"></RadzenLink> </RadzenButton>
             </RadzenCard>
 
         </RadzenColumn>
@@ -81,12 +102,14 @@
 
 
 @code {
-    List<Course> courses = new List<Course>();
+    //List<Course> courses = new List<Course>();
+    private List<WorkExperience> jobs = new List<WorkExperience>();
 
     protected async override void OnInitialized()
     {
         string endPoint = Http.BaseAddress + "data/json/";
-        courses = await Http.GetFromJsonAsync<List<Course>>(endPoint + "universityCourses.json");
+        //courses = await Http.GetFromJsonAsync<List<Course>>(endPoint + "universityCourses.json");
+        jobs = await Http.GetFromJsonAsync<List<WorkExperience>>(endPoint + "workExperience.json");
         StateHasChanged();
     }
 }
