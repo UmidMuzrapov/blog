@@ -1,6 +1,6 @@
 ﻿@page "/experience"
 @using Entity
-@inject HttpClient Http
+@inject HttpClient http
 <PageTitle>Experience</PageTitle>
 <div class="limit-width">
     <RadzenCard>
@@ -21,7 +21,7 @@
             </Items>
         </RadzenTimeline>
 
-        <RadzenButton ButtonStyle="ButtonStyle.Light"> <RadzenLink Path=@(Http.BaseAddress + "data/pdf/Resume.pdf") Text="Download Resume"></RadzenLink> </RadzenButton>
+        <RadzenButton ButtonStyle="ButtonStyle.Light"> <RadzenLink Path=@(http.BaseAddress + "data/pdf/Resume.pdf") Text="Download Resume"></RadzenLink> </RadzenButton>
     </RadzenCard>
 
     <RadzenCard>
@@ -45,9 +45,9 @@
 
     protected async override void OnInitialized()
     {
-        string endPoint = Http.BaseAddress + "data/json/";
-        jobs = await Http.GetFromJsonAsync<List<WorkExperience>>(endPoint + "workExperience.json");
-        skills = await Http.GetFromJsonAsync<List<Skill>>(endPoint + "skills.json");
+        string endPoint = http.BaseAddress + "data/json/";
+        jobs = await http.GetFromJsonAsync<List<WorkExperience>>(endPoint + "workExperience.json");
+        skills = await http.GetFromJsonAsync<List<Skill>>(endPoint + "skills.json");
         StateHasChanged();
     }
 }
