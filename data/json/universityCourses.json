@@ -1,5 +1,17 @@
 [
   {
+    "name": "CSC 422, Multithreaded, Parallel, and Distributed Programming",
+    "description": "Concepts and applications of parallel and distributed programs.  Process interaction using shared variables and message passing; parallel computing; development of correct programs; general problem solving techniques; scientific computing; distributed systems.  Programming assignments on multiple processor machines."
+  },
+  {
+    "name": "MATH 445, Intro To Cryptography",
+    "description": "Introduction to cryptosystems and cryptanalysis.  Basic number theory and finite fields.  Basic complexity theory and probability.  RSA and Diffie-Hellman protocols, factorization and discrete log attacks.  Advanced encryption standard.  "
+  },
+  {
+    "name": "MATH 464, Theory of Probability",
+    "description": "Probability spaces, random variables, weak law of large numbers, central limit theorem, various discrete and continuous probability distributions."
+  },
+  {
     "name": "CSC 345, Analysis of Discrete Structures",
     "grade": "Pending",
     "description": "Introduction to and analysis of algorithms and characteristics of discrete structures. Course topics include algorithm analysis techniques, recurrence relations, structural induction, hierarchical structures, graphs, hashing, and sorting."
@@ -69,23 +81,5 @@
     "name": "MATH 313, Introduction to Linear Algebra",
     "grade": "A",
     "description": "An algorithmic approach to solving systems of linear equations transitions into the study of vectors, vector spaces and dimension. Matrices are used to represent linear transformations and this leads to eigenvectors and eigenvalues. The precise use of definitions plays an important role. Examinations are proctored. This course is required in the math major and prepares students to take Math 323. It is a prerequisite to the majority of the higher level courses in mathematics."
-  },
-
-  {
-    "name": "CSC 120, Intro to Computer Prog II",
-    "grade": "A",
-    "description": "Provides a continuin introduction to programming with an emphasis on problemsolving. It considers problems drawn from a variety of domains and emphasizes both the broader applicability of the relevant data structures and programming concepts, as well as the implementation of those structures and programming concepts in sosoftware."
-  },
-
-  {
-    "name": "CSC 144, Discrete Math fo Comp Sci I",
-    "grade": "A",
-    "description": "The first of a two-course sequence introducing mathematical concepts for Computer Science. Topics include: sets, functions, and relations; propositional and predicate logic; foundational combinatorics; discrete probability; modular arithmetic; and recurrence relations."
-  },
-
-  {
-    "name": "MATH 129, Calculus II",
-    "grade": "A",
-    "description": "Continuation of MATH 122B or MATH 125. Techniques of symbolic and numerical integration, applications of the definite integral to geometry, physics, economics, and probability; differential equations from a numerical, graphical, and algebraic point of view; modeling using differential equations, approximations by Taylor series."
   }
 ]
