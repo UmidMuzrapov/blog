@@ -56,7 +56,7 @@
 
             <RadzenCard>
                 <RadzenText Text="Courses" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3" Style="padding-top: 20px" ></RadzenText>
-                <RadzenDataGrid Data="@courses" TItem="Course" AllowSorting="true" AllowPaging="true" PageSize="6">
+                <RadzenDataGrid Data="@courses" TItem="Course" AllowSorting="true" AllowPaging="true" PageSize="4">
                     <Columns>
                         <RadzenDataGridColumn TItem="Course" Property="Name" Title="Course">
                             <Template Context="data">
