@@ -5,9 +5,9 @@
         <div class="frame">
 
             <div class="card-body">
-                @if (Skill.Level>=80) SkillColor="rz-background-color-success-light";
-                else if (Skill.Level>60 & Skill.Level<80) SkillColor="rz-background-color-warning-light";
-                else SkillColor="rz-background-color-danger-light";
+                @if (Skill.Level>=80) SkillColor="rz-background-color-series-1";
+                else if (Skill.Level>60 & Skill.Level<80) SkillColor="rz-background-color-series-5";
+                else SkillColor="rz-background-color-danger-lighter";
                 
                 <div class="progress">
                     <div class="progress-bar @SkillColor" role="progressbar" aria-label="Basic example" style="width: @Skill.Level%" aria-valuenow="@Skill.Level" aria-valuemin="0" aria-valuemax="100"></div>

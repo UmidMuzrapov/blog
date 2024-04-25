@@ -5,12 +5,11 @@
 <PageTitle>Home</PageTitle>
 
 <div class="limit-width">
-    <RadzenRow Gap="5" RowGap="5">
-        <RadzenColumn Size="12">
+
 
             <!--Welcome Section-->
             @*<RadzenText Text="Welcome to My Page" TextStyle="Radzen.Blazor.TextStyle.DisplayH2" TagName="Radzen.Blazor.TagName.Auto"></RadzenText>*@
-            <RadzenCard Style="margin-top: 40px; padding: 20px 40px 40px;">
+     @*        <RadzenCard Style="margin-top: 40px; padding: 20px 40px 40px;">
                 <RadzenRow>
                     <RadzenColumn Size="12" SizeMD="4">
                         <RadzenIcon Icon="code" Style="margin-top: 20px; width: 48px; height: 48px; font-size: 48px; color: var(--rz-text-title-color);"></RadzenIcon>
@@ -23,70 +22,45 @@
                         <RadzenLink Text="LinkedIn" Path="https://www.linkedin.com/in/umidmuzrapov/" Icon="east" Target="_blank" Style="font-size: 18px"></RadzenLink>
                     </RadzenColumn>
                 </RadzenRow>
-            </RadzenCard>
+            </RadzenCard> *@
 
-            <RadzenCard>
-                <RadzenRow>
+            <RadzenRow>
 
-                    <RadzenText Text="About me" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3" Style="padding-top: 20px"></RadzenText>
+                <RadzenText Text="About me" TextStyle="Radzen.Blazor.TextStyle.DisplayH4" TagName="Radzen.Blazor.TagName.H3" Style="padding-top: 20px"></RadzenText>
 
-                    <RadzenText TextStyle="TextStyle.Body1" TagName="TagName.P">
-                        I am a Computer Science and Mathematics major at the University of Arizona. I have taken courses on software engineering, algorithms, database design and mathematical analysis.
-                        I work part-time as a software developer on campus, where I created the system to track chemical sprays across the campus and contributed to other critical projects.
-                    </RadzenText>
-
+                <RadzenText TextStyle="TextStyle.Body1" TagName="TagName.P">
+                    I am a Computer Science and Mathematics major at the University of Arizona. I have taken courses on software engineering, algorithms, database design and mathematical analysis.
+                    I work part-time as a software developer on campus, where I created the system to track chemical sprays across the campus and contributed to other critical projects.
+                </RadzenText>
 
 
-                    <RadzenText TextStyle="TextStyle.Body1" TagName="TagName.P">
-                        My great interests are software development, architecting scalable solutions, and writing maintainable code.
-                        Complex problems motivate me. Through college and work experience, I developed several software systems using diverse technologies such as C#, Java, ASP.NET, AWS, C, LISP, Prolog, Haskell, Docker, GitHub, and relational databases.
-                    </RadzenText>
+
+                <RadzenText TextStyle="TextStyle.Body1" TagName="TagName.P">
+                    My great interests are software development, architecting scalable solutions, and writing maintainable code.
+                    Complex problems motivate me. Through college and work experience, I developed several software systems using diverse technologies such as C#, Java, ASP.NET, AWS, C, LISP, Prolog, Haskell, Docker, GitHub, and relational databases.
+                </RadzenText>
 
 
-                </RadzenRow>
+            </RadzenRow>
 
-                <RadzenRow>
-                    <RadzenText Text="Projects" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3" Style="padding-top: 20px"></RadzenText>
-                    <RadzenText TextStyle="TextStyle.Body1" TagName="TagName.P">
-                        The primary purpose of this site is to showase my projects and give infromation about me. The projects are done independently, as a part of schoolwork or an online course. If you have any question regarding my projects, feel free to email me.
-                    </RadzenText>
-                </RadzenRow>
-                
-            </RadzenCard>
-
-            <RadzenCard>
-                <RadzenText Text="Courses" TextStyle="Radzen.Blazor.TextStyle.DisplayH6" TagName="Radzen.Blazor.TagName.H3" Style="padding-top: 20px" ></RadzenText>
-                <RadzenDataGrid Data="@courses" TItem="Course" AllowSorting="true" AllowPaging="true" PageSize="4">
-                    <Columns>
-                        <RadzenDataGridColumn TItem="Course" Property="Name" Title="Course">
-                            <Template Context="data">
-                                <p style="white-space:pre-wrap">@data.Name</p>
-                            </Template>
-                        </RadzenDataGridColumn>
-
-                        <RadzenDataGridColumn TItem="Course" Property="Description" Title="Description">
-                            <Template Context="data">
-                                <p style="white-space:pre-wrap">@data.Description</p>
-                            </Template>
-                            </RadzenDataGridColumn>
-                    </Columns>
-
-                </RadzenDataGrid>
-            </RadzenCard>
-
-        </RadzenColumn>
-    </RadzenRow>
-
+            <RadzenRow>
+                <RadzenText Text="Projects" TextStyle="Radzen.Blazor.TextStyle.DisplayH4" TagName="Radzen.Blazor.TagName.H3" Style="padding-top: 20px"></RadzenText>
+                <RadzenText TextStyle="TextStyle.Body1" TagName="TagName.P">
+                    The primary purpose of this site is to showase my projects and give infromation about me. The projects are done independently, as a part of schoolwork or an online course. If you have any question regarding my projects, feel free to email me.
+                </RadzenText>
+            </RadzenRow>
 </div>
 
 
 @code {
-    List<Course> courses = new List<Course>();
+    private List<Course> courses = new List<Course>();
+    private List<WorkExperience> jobs = new List<WorkExperience>();
 
     protected async override void OnInitialized()
     {
         string endPoint = Http.BaseAddress + "data/json/";
         courses = await Http.GetFromJsonAsync<List<Course>>(endPoint + "universityCourses.json");
+        jobs = await Http.GetFromJsonAsync<List<WorkExperience>>(endPoint + "workExperience.json");
         StateHasChanged();
     }
 }
