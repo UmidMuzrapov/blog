@@ -53,14 +53,5 @@
 
 
 @code {
-    private List<Course> courses = new List<Course>();
-    private List<WorkExperience> jobs = new List<WorkExperience>();
 
-    protected async override void OnInitialized()
-    {
-        string endPoint = Http.BaseAddress + "data/json/";
-        courses = await Http.GetFromJsonAsync<List<Course>>(endPoint + "universityCourses.json");
-        jobs = await Http.GetFromJsonAsync<List<WorkExperience>>(endPoint + "workExperience.json");
-        StateHasChanged();
-    }
 }
