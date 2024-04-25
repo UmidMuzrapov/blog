@@ -1,5 +1,26 @@
 [
   {
+    "pname": "Haskell Shorts",
+    "startDate": "2023-01-01",
+    "endDate": "2023-02-15",
+    "overview": "The repository contains a collection of programs in Haskell.",
+    "gitHubLink": "https://github.com/UmidMuzrapov/Haskell"
+  },
+  {
+    "pname": "Racket/LISP Shorts",
+    "startDate": "2023-04-01", 
+    "endDate": "2023-05-15",
+    "overview": "The project includes a collection of programs written in Racket.",
+    "gitHubLink": "https://github.com/UmidMuzrapov/Racket"
+  },
+  {
+    "pname": "Prolog Shorts",
+    "startDate": "2023-02-15",
+    "endDate": "2023-03-30",
+    "overview": "Prolog is a logic programming language. The is a set of programs in Prolog.",
+    "gitHubLink": "https://github.com/UmidMuzrapov/Prolog"
+  },
+  {
     "pname": "My make",
     "startDate": "2023-10-10",
     "endDate": "2023-11-10",
@@ -46,27 +67,6 @@
     "endDate": "2023-12-01",
     "overview": "The repository contains small C projects.",
     "gitHubLink": "https://github.com/UmidMuzrapov/C"
-  },
-  {
-    "pname": "Haskell Shorts",
-    "startDate": "2023-01-01",
-    "endDate": "2023-02-15",
-    "overview": "The repository contains a collection of programs in Haskell.",
-    "gitHubLink": "https://github.com/UmidMuzrapov/Haskell"
-  },
-  {
-    "pname": "Racket/LISP Shorts",
-    "startDate": "2023-04-01",
-    "endDate": "2023-05-15",
-    "overview": "The project includes a collection of programs written in Racket.",
-    "gitHubLink": "https://github.com/UmidMuzrapov/Racket"
-  },
-  {
-    "pname": "Prolog Shorts",
-    "startDate": "2023-02-15",
-    "endDate": "2023-03-30",
-    "overview": "Prolog is a logic programming language. The is a set of programs in Prolog.",
-    "gitHubLink": "https://github.com/UmidMuzrapov/Prolog"
   },
 
   {

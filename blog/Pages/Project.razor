@@ -23,7 +23,7 @@
                         <div style="align-items:start" >
                             @foreach (var tag in project.Tags)
                             {
-                                    <RadzenLink Path="@tag.DescriptionLink" Style="margin: 3px; padding: 3px; background: #d6e4f0;"> <RadzenText TextStyle="TextStyle.Overline">@tag.Tname </RadzenText> </RadzenLink>
+                                    <RadzenLink Path="@tag.DescriptionLink" Style="margin: 3px; padding: 3px; background: var(--rz-on-danger-darker);"> <RadzenText TextStyle="TextStyle.Overline">@tag.Tname </RadzenText> </RadzenLink>
                             }
                          </div>
                     </RadzenStack>
