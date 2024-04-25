@@ -184,7 +184,7 @@ a:focus {
     content: var(--blazor-load-percentage-text, "Loading");
 }
 
-
+/**General */
 .limit-width{
     max-width: 1000px;
     margin-left: 5px;
@@ -201,7 +201,7 @@ a:focus {
     flex: 1 0 300px; /* explanation below */
     margin: 5px;
     box-sizing: border-box;
-}
+} 
 
 .inner-card {
     max-height: 250px;
@@ -220,6 +220,7 @@ a:focus {
 .rz-card{
     margin: 10px 0px 10px 0px; 
 }
+
 /* index.razor*/
 
 .custom-center-container{
